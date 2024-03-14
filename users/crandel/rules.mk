@@ -1,0 +1,16 @@
+SRC += crandel.c
+COMBO_ENABLE           = yes
+COMMAND_ENABLE         = no
+CONSOLE_ENABLE         = no
+EXTRAKEY_ENABLE        = yes
+KEY_OVERRIDE_ENABLE    = no
+LEADER_ENABLE          = yes
+LTO_ENABLE             = yes
+MAGIC_ENABLE           = no
+MIDI_ENABLE            = no
+MOUSEKEY_ENABLE        = yes # Mouse keys
+NKRO_ENABLE            = yes  # Enable N-Key Rollover
+VIAL_ENABLE            = yes # Enable VIAL
+VIAL_INSECURE          = yes # Disable security
+VIA_ENABLE             = yes # Enable VIA
+TAP_DANCE_ENABLE       = yes

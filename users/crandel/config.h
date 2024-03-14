@@ -1,0 +1,57 @@
+#pragma once
+
+#ifdef DEBUG_ENABLE
+#include "print.h"
+#endif
+// Disable options
+#ifndef NO_DEBUG
+#define NO_DEBUG
+#endif // !NO_DEBUG
+#ifndef NO_PRINT
+#define NO_PRINT
+#endif // !NO_PRINT
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE
+#define NO_ACTION_ONESHOT
+#define NO_MUSIC_MODE
+#define LAYER_STATE_8BIT
+
+#define TAPPING_TERM   260
+#define TAPPING_TOGGLE 3
+#define PERMISSIVE_HOLD
+
+#ifdef RGBLIGHT_ENABLE
+#  undef RGBLIGHT_EFFECT_ALTERNATING
+#  undef RGBLIGHT_EFFECT_BREATHING
+#  undef RGBLIGHT_EFFECT_CHRISTMAS
+#  undef RGBLIGHT_EFFECT_KNIGHT
+#  undef RGBLIGHT_EFFECT_RAINBOW_MOOD
+#  undef RGBLIGHT_EFFECT_RAINBOW_SWIRL
+#  undef RGBLIGHT_EFFECT_RGB_TEST
+#  undef RGBLIGHT_EFFECT_SNAKE
+#  undef RGBLIGHT_EFFECT_STATIC_GRADIENT
+#  undef RGBLIGHT_EFFECT_TWINKLE
+#  undef RGBLIGHT_SPLIT
+#  define RGBLIGHT_DEFAULT_HUE 85
+#  define RGBLIGHT_DEFAULT_VAL 55
+#  define RGBLIGHT_DISABLE_KEYCODES
+#  define RGBLIGHT_HUE_STEP 10
+#  define RGBLIGHT_SAT_STEP 17
+#  define RGBLIGHT_VAL_STEP 10
+#  define RGBLIGHT_LIMIT_VAL 120
+#  define RGBLIGHT_SLEEP
+#  define CR_HSV_BLUE        170, 255, 55
+#  define CR_HSV_CYAN        128, 255, 55
+#  define CR_HSV_GOLD         36, 255, 55
+#  define CR_HSV_GREEN        85, 255, 55
+#  define CR_HSV_MAGENTA     213, 255, 55
+#  define CR_HSV_ORANGE       21, 255, 55
+#  define CR_HSV_PURPLE      191, 255, 55
+#  define CR_HSV_RED           0, 255, 55
+#  define CR_HSV_YELLOW       43, 255, 55
+#endif
+
+#ifdef LEADER_ENABLE
+#  define LEADER_NO_TIMEOUT
+#  define LEADER_PER_KEY_TIMING
+#endif

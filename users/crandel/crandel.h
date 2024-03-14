@@ -1,4 +1,5 @@
 #pragma once
+#include QMK_KEYBOARD_H
 
 enum layers {
   COLMAK_L = 0,
@@ -51,3 +52,11 @@ enum virtual_keycodes {
 #define ____MOUSESS_L32____  KC_INS, KC_WBAK,  KC_PGDN, KC_PGUP, KC_WFWD
 
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
+
+void set_lang(bool lng);
+void set_indicators_state(uint8_t hue, uint8_t sat, uint8_t val, const char *data);
+
+#ifdef LEADER_ENABLE
+void umlauts(uint8_t code);
+void shifted_letters(uint8_t code);
+#endif

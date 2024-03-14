@@ -52,6 +52,7 @@ enum virtual_keycodes {
 #define ____MOUSESS_L32____  KC_INS, KC_WBAK,  KC_PGDN, KC_PGUP, KC_WFWD
 
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
+#define LAYOUT_split_3x5_3_wrapper(...)       LAYOUT_split_3x5_3(__VA_ARGS__)
 
 void set_lang(bool lng);
 void set_indicators_state(uint8_t hue, uint8_t sat, uint8_t val, const char *data);

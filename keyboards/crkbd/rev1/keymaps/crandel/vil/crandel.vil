@@ -5,18 +5,18 @@
     [
       [
         "KC_NO",
-        "LGUI_T(KC_Q)",
-        "LALT_T(KC_W)",
-        "LCTL_T(KC_F)",
-        "LSFT_T(KC_P)",
+        "KC_Q",
+        "KC_W",
+        "KC_F",
+        "KC_P",
         "KC_B"
       ],
       [
         "KC_NO",
-        "KC_A",
-        "KC_R",
-        "KC_S",
-        "KC_T",
+        "LGUI_T(KC_A)",
+        "LALT_T(KC_R)",
+        "LCTL_T(KC_S)",
+        "LSFT_T(KC_T)",
         "KC_G"
       ],
       [
@@ -37,18 +37,18 @@
       ],
       [
         "KC_NO",
-        "LGUI_T(KC_SCOLON)",
-        "RALT_T(KC_Y)",
-        "LCTL_T(KC_U)",
-        "LSFT_T(KC_I)",
+        "KC_SCOLON",
+        "KC_Y",
+        "KC_U",
+        "KC_I",
         "KC_E"
       ],
       [
         "KC_NO",
-        "KC_L",
-        "KC_K",
-        "KC_J",
-        "KC_H",
+        "LGUI_T(KC_L)",
+        "RALT_T(KC_K)",
+        "LCTL_T(KC_J)",
+        "LSFT_T(KC_H)",
         "KC_M"
       ],
       [
@@ -71,18 +71,18 @@
     [
       [
         "KC_NO",
-        "LGUI_T(KC_F5)",
-        "LALT_T(KC_7)",
-        "LCTL_T(KC_4)",
-        "LSFT_T(KC_2)",
+        "KC_F5",
+        "KC_7",
+        "KC_4",
+        "KC_2",
         "KC_MINUS"
       ],
       [
         "KC_NO",
-        "KC_F4",
-        "KC_8",
-        "KC_5",
-        "KC_1",
+        "LGUI_T(KC_F4)",
+        "LALT_T(KC_8)",
+        "LCTL_T(KC_5)",
+        "LSFT_T(KC_1)",
         "KC_3"
       ],
       [
@@ -103,18 +103,18 @@
       ],
       [
         "KC_NO",
-        "LGUI_T(KC_DOT)",
-        "RALT_T(KC_PGUP)",
-        "LCTL_T(KC_PGDOWN)",
-        "LSFT_T(KC_EQUAL)",
+        "KC_DOT",
+        "KC_PGUP",
+        "KC_PGDOWN",
+        "KC_EQUAL",
         "RSFT(KC_EQUAL)"
       ],
       [
         "KC_NO",
-        "KC_RIGHT",
-        "KC_UP",
-        "KC_DOWN",
-        "KC_LEFT",
+        "LGUI_T(KC_RIGHT)",
+        "RALT_T(KC_UP)",
+        "LCTL_T(KC_DOWN)",
+        "LSFT_T(KC_LEFT)",
         "KC_F1"
       ],
       [
@@ -541,11 +541,11 @@
       "KC_QUOTE"
     ],
     [
+      "KC_0",
+      "RSFT(KC_QUOTE)",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "USER00"
     ]
   ],
   "key_override": [],

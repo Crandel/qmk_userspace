@@ -11,3 +11,4 @@
 
 /* Select hand configuration */
 #define MASTER_LEFT
+#undef  SPLIT_USB_DETECT

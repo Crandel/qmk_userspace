@@ -23,6 +23,10 @@ void leader_end_user(void) {
     umlauts(KC_E);
     return;
   }
+  if (leader_sequence_one_key(KC_G)) {
+    tap_code(KC_ESC);
+    return;
+  }
   // ukrainian х
   if (leader_sequence_one_key(KC_H)) {
     tap_code(KC_LBRC);
@@ -56,6 +60,11 @@ void leader_end_user(void) {
   }
   if (leader_sequence_one_key(KC_U)) {
     umlauts(KC_U);
+    return;
+  }
+  // ukrainian x
+  if (leader_sequence_one_key(KC_Y)) {
+    tap_code(KC_QUOT);
     return;
   }
   // Emacs Alt+X

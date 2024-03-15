@@ -10,5 +10,4 @@
 #define DYNAMIC_KEYMAP_MACRO_COUNT 15
 
 /* Select hand configuration */
-#define MASTER_LEFT
-#undef  SPLIT_USB_DETECT
+#define USB_VBUS_PIN GP29

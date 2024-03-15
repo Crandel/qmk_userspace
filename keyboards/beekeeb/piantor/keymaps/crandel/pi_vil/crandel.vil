@@ -145,7 +145,7 @@
       ],
       [
         "KC_NO",
-        "KC_NO",
+        "M1",
         "LSFT(KC_8)",
         "LSFT(KC_5)",
         "LSFT(KC_1)",
@@ -153,7 +153,7 @@
       ],
       [
         "KC_NO",
-        "KC_NO",
+        "M0",
         "KC_CUT",
         "LSFT(KC_6)",
         "KC_APPLICATION",
@@ -211,7 +211,7 @@
       ],
       [
         "KC_NO",
-        "KC_NO",
+        "M1",
         "KC_BTN4",
         "KC_BTN2",
         "KC_BTN1",
@@ -219,7 +219,7 @@
       ],
       [
         "KC_NO",
-        "DF(4)",
+        "M0",
         "KC_CUT",
         "KC_COPY",
         "KC_APPLICATION",
@@ -238,7 +238,7 @@
         "KC_F11",
         "KC_WH_D",
         "KC_WH_U",
-        "KC_PSCREEN",
+        "DF(4)",
         "KC_NO"
       ],
       [
@@ -247,7 +247,7 @@
         "KC_MS_D",
         "KC_MS_U",
         "KC_MS_R",
-        "DF(4)"
+        "KC_NO"
       ],
       [
         "KC_INSERT",
@@ -799,6 +799,13 @@
       "USER00"
     ],
     [
+      "KC_0",
+      "RSFT(KC_QUOTE)",
+      "KC_NO",
+      "KC_NO",
+      "USER00"
+    ],
+    [
       "KC_G",
       "KC_M",
       "KC_NO",
@@ -869,18 +876,11 @@
       "RSFT(KC_QUOTE)"
     ],
     [
-      "KC_Q",
-      "KC_Y",
+      "KC_W",
+      "KC_SCOLON",
       "KC_NO",
       "KC_NO",
       "KC_QUOTE"
-    ],
-    [
-      "KC_0",
-      "RSFT(KC_QUOTE)",
-      "KC_NO",
-      "KC_NO",
-      "USER00"
     ]
   ],
   "key_override": [],

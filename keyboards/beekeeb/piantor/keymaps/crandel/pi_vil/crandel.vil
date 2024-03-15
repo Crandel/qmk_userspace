@@ -5,18 +5,18 @@
     [
       [
         "KC_NO",
-        "LGUI_T(KC_Q)",
-        "LALT_T(KC_W)",
-        "LCTL_T(KC_F)",
-        "LSFT_T(KC_P)",
+        "KC_Q",
+        "KC_W",
+        "KC_F",
+        "KC_P",
         "KC_B"
       ],
       [
         "KC_NO",
-        "KC_A",
-        "KC_R",
-        "KC_S",
-        "KC_T",
+        "LGUI_T(KC_A)",
+        "LALT_T(KC_R)",
+        "LCTL_T(KC_S)",
+        "LSFT_T(KC_T)",
         "KC_G"
       ],
       [
@@ -37,18 +37,18 @@
       ],
       [
         "KC_E",
-        "LSFT_T(KC_I)",
-        "LCTL_T(KC_U)",
-        "RALT_T(KC_Y)",
-        "LGUI_T(KC_SCOLON)",
+        "KC_I",
+        "KC_U",
+        "KC_Y",
+        "KC_SCOLON",
         "KC_NO"
       ],
       [
         "KC_M",
-        "KC_H",
-        "KC_J",
-        "KC_K",
-        "KC_L",
+        "LSFT_T(KC_H)",
+        "LCTL_T(KC_J)",
+        "RALT_T(KC_K)",
+        "LGUI_T(KC_L)",
         "KC_NO"
       ],
       [
@@ -71,18 +71,18 @@
     [
       [
         "KC_NO",
-        "LGUI_T(KC_F5)",
-        "LALT_T(KC_7)",
-        "LCTL_T(KC_4)",
-        "LSFT_T(KC_2)",
+        "KC_F5",
+        "KC_7",
+        "KC_4",
+        "KC_2",
         "KC_MINUS"
       ],
       [
         "KC_NO",
-        "KC_F4",
-        "KC_8",
-        "KC_5",
-        "KC_1",
+        "LGUI_T(KC_F4)",
+        "LALT_T(KC_8)",
+        "LCTL_T(KC_5)",
+        "LSFT_T(KC_1)",
         "KC_3"
       ],
       [
@@ -102,26 +102,26 @@
         -1
       ],
       [
-        "KC_HOME",
-        "LSFT_T(KC_END)",
-        "LCTL_T(KC_PGDOWN)",
-        "RALT_T(KC_PGUP)",
-        "LGUI_T(KC_DOT)",
-        "KC_NO"
-      ],
-      [
+        "RSFT(KC_EQUAL)",
+        "KC_EQUAL",
+        "KC_PGDOWN",
+        "KC_PGUP",
         "KC_DOT",
-        "KC_LEFT",
-        "KC_DOWN",
-        "KC_UP",
-        "KC_RIGHT",
         "KC_NO"
       ],
       [
-        "KC_BTN4",
-        "KC_BTN1",
-        "KC_BTN2",
-        "KC_BTN3",
+        "KC_F1",
+        "LSFT_T(KC_LEFT)",
+        "LCTL_T(KC_DOWN)",
+        "RALT_T(KC_UP)",
+        "LGUI_T(KC_RIGHT)",
+        "KC_NO"
+      ],
+      [
+        "KC_QUOTE",
+        "RSFT(KC_QUOTE)",
+        "KC_HOME",
+        "KC_END",
         "KC_BSLASH",
         "KC_NO"
       ],
@@ -862,25 +862,25 @@
       "RSFT(KC_EQUAL)"
     ],
     [
-      "KC_A",
-      "KC_L",
+      "KC_Q",
+      "KC_SCOLON",
       "KC_NO",
       "KC_NO",
       "RSFT(KC_QUOTE)"
     ],
     [
-      "KC_A",
-      "KC_R",
-      "KC_L",
+      "KC_Q",
+      "KC_Y",
+      "KC_NO",
       "KC_NO",
       "KC_QUOTE"
     ],
     [
+      "KC_0",
+      "RSFT(KC_QUOTE)",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "USER00"
     ]
   ],
   "key_override": [],

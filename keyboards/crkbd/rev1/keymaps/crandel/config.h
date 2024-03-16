@@ -26,6 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VIAL_TAP_DANCE_ENTRIES 5
 #define VIAL_COMBO_ENTRIES     15
 
+/* default layer count */
 #define DYNAMIC_KEYMAP_LAYER_COUNT 5
 #define DYNAMIC_KEYMAP_MACRO_COUNT 15
 

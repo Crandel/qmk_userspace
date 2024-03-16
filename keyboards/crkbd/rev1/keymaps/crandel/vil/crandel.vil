@@ -464,6 +464,13 @@
       "USER00"
     ],
     [
+      "KC_0",
+      "RSFT(KC_QUOTE)",
+      "KC_NO",
+      "KC_NO",
+      "USER00"
+    ],
+    [
       "KC_G",
       "KC_M",
       "KC_NO",
@@ -527,25 +534,18 @@
       "RSFT(KC_EQUAL)"
     ],
     [
-      "KC_A",
-      "KC_L",
+      "KC_Q",
+      "KC_SCOLON",
       "KC_NO",
       "KC_NO",
       "RSFT(KC_QUOTE)"
     ],
     [
-      "KC_A",
-      "KC_S",
-      "KC_L",
+      "KC_W",
+      "KC_SCOLON",
+      "KC_NO",
       "KC_NO",
       "KC_QUOTE"
-    ],
-    [
-      "KC_0",
-      "RSFT(KC_QUOTE)",
-      "KC_NO",
-      "KC_NO",
-      "USER00"
     ]
   ],
   "key_override": [],

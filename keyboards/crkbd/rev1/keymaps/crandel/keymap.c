@@ -33,20 +33,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #  include "crd_tapdance.c"
 #endif
 
+#ifdef RGBLIGHT_ENABLE
+layer_state_t default_layer_state_set_user(layer_state_t state) {
+  vd_layer_state_set(state);
+  return state;
+}
+#endif
+
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-  switch (keycode) {
-  case V_US:
-    if (record->event.pressed) {
-      set_lang(true);
-    }
-    break;
-  case V_UK:
-    if (record->event.pressed) {
-      set_lang(false);
-    }
-    break;
-  }
-  return true;
+  return vd_process_record_user(keycode, record);
 }
 
 void keyboard_post_init_user(void) {

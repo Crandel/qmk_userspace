@@ -1,7 +1,8 @@
 #include "crandel.h"
 
 #ifdef RGBLIGHT_ENABLE
-layer_state_t default_layer_state_set_user(layer_state_t state) {
+__attribute__ ((weak))
+void vd_layer_state_set(layer_state_t state) {
   #ifdef CONSOLE_ENABLE
   uprintf("current state in default_layer_state_set_user %d, biton %d\n", state, biton32(state));
   #endif // CONSOLE_ENABLE
@@ -22,7 +23,6 @@ layer_state_t default_layer_state_set_user(layer_state_t state) {
       set_indicators_state(CR_HSV_RED, "Games");
       break;
   }
-  return state;
 };
 #endif // RGBLIGHT_ENABLE
 
@@ -33,6 +33,53 @@ void set_lang(bool lng){
   } else {
     tap_code16(S(KC_CAPS));
   }
+}
+
+__attribute__ ((weak))
+bool vd_process_record_user(uint16_t keycode, keyrecord_t *record) {
+  switch (keycode) {
+  case V_US:
+    if (record->event.pressed) {
+      set_lang(true);
+    }
+    return false;
+  case V_UK:
+    if (record->event.pressed) {
+      set_lang(false);
+    }
+    return false;
+  case KC_BSPC:
+    {
+      static uint16_t registered_key = KC_NO;
+      if (record->event.pressed) {  // On key press.
+        const uint8_t mods = get_mods();
+#ifndef NO_ACTION_ONESHOT
+        uint8_t shift_mods = (mods | get_oneshot_mods()) & MOD_MASK_SHIFT;
+#else
+        uint8_t shift_mods = mods & MOD_MASK_SHIFT;
+#endif  // NO_ACTION_ONESHOT
+        if (shift_mods) {  // At least one shift key is held.
+          registered_key = KC_DEL;
+          // If one shift is held, clear it from the mods. But if both
+          // shifts are held, leave as is to send Shift + Del.
+          if (shift_mods != MOD_MASK_SHIFT) {
+#ifndef NO_ACTION_ONESHOT
+            del_oneshot_mods(MOD_MASK_SHIFT);
+#endif  // NO_ACTION_ONESHOT
+            unregister_mods(MOD_MASK_SHIFT);
+          }
+        } else {
+          registered_key = KC_BSPC;
+        }
+        register_code(registered_key);
+        set_mods(mods);
+      } else {  // On key release.
+        unregister_code(registered_key);
+      }
+    }
+    return false;
+  }
+  return true;
 }
 
 __attribute__ ((weak))

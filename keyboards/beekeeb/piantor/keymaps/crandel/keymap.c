@@ -34,19 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-  switch (keycode) {
-  case V_US:
-    if (record->event.pressed) {
-      set_lang(true);
-    }
-    break;
-  case V_UK:
-    if (record->event.pressed) {
-      set_lang(false);
-    }
-    break;
-  }
-  return true;
+  return vd_process_record_user(keycode, record);
 }
 
 void keyboard_post_init_user(void) {

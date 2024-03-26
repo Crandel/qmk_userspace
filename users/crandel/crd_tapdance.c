@@ -25,23 +25,11 @@ void install_tap_dance_entries(void) {
                                    TO_NMB,
                                    TO_MOS,
                                    TAP_TAPPING_TERM };
-    vial_tap_dance_entry_t td1 = { V_US, // Change language
-                                   V_UK,
-                                   V_UK,
-                                   V_UK,
-                                   TAP_TAPPING_TERM };
-    vial_tap_dance_entry_t td2 = { KC_QUOT, // ' [ ? ]
+    vial_tap_dance_entry_t td1 = { KC_SLSH, // / [ ? ]
                                    KC_LBRC,
                                    LSFT(KC_SLSH),
                                    KC_RBRC,
                                    TAP_TAPPING_TERM };
-    vial_tap_dance_entry_t td3 = { KC_SLSH, // / . , backslash
-                                   KC_DOT,
-                                   KC_COMM,
-                                   KC_BSLS,
-                                   TAP_TAPPING_TERM };
     dynamic_keymap_set_tap_dance(0, &td0); // the first value corresponds to the TD(i) slot
     dynamic_keymap_set_tap_dance(1, &td1);
-    dynamic_keymap_set_tap_dance(2, &td2);
-    dynamic_keymap_set_tap_dance(3, &td3);
 }

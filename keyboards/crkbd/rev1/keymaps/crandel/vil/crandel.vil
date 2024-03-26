@@ -52,7 +52,7 @@
         "KC_NO"
       ],
       [
-        "TD(3)",
+        "TD(1)",
         "KC_DOT",
         "KC_COMMA",
         "KC_N",
@@ -403,24 +403,24 @@
       260
     ],
     [
-      "USER00",
-      "USER01",
-      "USER01",
-      "USER01",
-      260
-    ],
-    [
-      "KC_QUOTE",
+      "KC_SLASH",
       "KC_LBRACKET",
       "LSFT(KC_SLASH)",
       "KC_RBRACKET",
       260
     ],
     [
-      "KC_SLASH",
-      "KC_DOT",
-      "KC_COMMA",
-      "KC_BSLASH",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      260
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
       260
     ],
     [

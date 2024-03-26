@@ -19,7 +19,7 @@ enum virtual_keycodes {
 #define TO_CHR DF(CHARS_L)
 #define TO_MOS DF(MOUSE_L)
 #define TO_GAM DF(GAME_L)
-#define SLS_TD TD(3)
+#define SLS_TD TD(1)
 
 #define __THUMB1__          QK_LEAD, KC_SPC,   TD(0)
 #define __THUMB2__           KC_ENT, KC_TAB, KC_BSPC

@@ -47,6 +47,7 @@ void leader_end_user(void) {
     tap_code(KC_Q);
     return;
   }
+  // umlaut ß
   if (leader_sequence_one_key(KC_S)) {
     tap_code(KC_PSCR);
     tap_code(KC_S);
@@ -90,6 +91,18 @@ void leader_end_user(void) {
   // ukrainian ?
   if (leader_sequence_two_keys(KC_T, KC_S)) {
     tap_code16(S(KC_7));
+    return;
+  }
+  // russian э
+  if (leader_sequence_two_keys(KC_T, KC_E)) {
+    tap_code16(RALT(KC_QUOT));
+    return;
+  }
+  // russian Э
+  if (leader_sequence_two_keys(KC_T, KC_I)) {
+    register_code(KC_LSFT);
+    tap_code16(RALT(KC_QUOT));
+    unregister_code(KC_LSFT);
     return;
   }
 }

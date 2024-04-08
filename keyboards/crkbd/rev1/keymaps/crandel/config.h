@@ -28,7 +28,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* default layer count */
 #define DYNAMIC_KEYMAP_LAYER_COUNT 5
-#define DYNAMIC_KEYMAP_MACRO_COUNT 5
+#define DYNAMIC_KEYMAP_MACRO_COUNT 6
 
 //#define USE_MATRIX_I2C
 #ifdef KEYBOARD_crkbd_rev1_legacy

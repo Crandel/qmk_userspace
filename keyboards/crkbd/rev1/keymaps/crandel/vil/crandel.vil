@@ -390,7 +390,20 @@
         "KC_A"
       ]
     ],
-    []
+    [
+      [
+        "tap",
+        "KC_RALT",
+        "KC_T"
+      ]
+    ],
+    [
+      [
+        "tap",
+        "KC_RALT",
+        "RSFT(KC_T)"
+      ]
+    ],
   ],
   "vial_protocol": 6,
   "via_protocol": 9,
@@ -580,18 +593,18 @@
       "RSFT(KC_RBRACKET)"
     ],
     [
+      "KC_P",
+      "KC_N",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "M4"
     ],
     [
+      "KC_F",
+      "KC_P",
+      "KC_N",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "M5"
     ],
     [
       "KC_NO",

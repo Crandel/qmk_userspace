@@ -392,16 +392,30 @@
     ],
     [
       [
+        "down",
+        "KC_RALT"
+      ],
+      [
         "tap",
-        "KC_RALT",
-        "KC_T"
+        "KC_QUOTE"
+      ],
+      [
+        "up",
+        "KC_RALT"
       ]
     ],
     [
       [
+        "down",
+        "KC_RALT"
+      ],
+      [
         "tap",
-        "KC_RALT",
-        "RSFT(KC_T)"
+        "RSFT(KC_QUOTE)"
+      ],
+      [
+        "up",
+        "KC_RALT"
       ]
     ],
     [],

@@ -1,4 +1,5 @@
 AVR_USE_MINIMAL_PRINTF = yes
+LEADER_ENABLE          = no
 OLED_ENABLE            = no
 QMK_SETTINGS           = no
 RAW_ENABLE             = no

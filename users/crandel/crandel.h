@@ -6,7 +6,8 @@ enum layers {
   NUM_L = 1,
   CHARS_L = 2,
   MOUSE_L = 3,
-  GAME_L = 4,
+  OSL_L = 4,
+  GAME_L = 5,
 };
 
 enum virtual_keycodes {
@@ -18,10 +19,11 @@ enum virtual_keycodes {
 #define TO_NMB DF(NUM_L)
 #define TO_CHR DF(CHARS_L)
 #define TO_MOS DF(MOUSE_L)
+#define TO_OSL OSL(OSL_L)
 #define TO_GAM DF(GAME_L)
 #define SLS_TD TD(1)
 
-#define __THUMB1__          QK_LEAD, KC_SPC,   TD(0)
+#define __THUMB1__           TO_OSL, KC_SPC,   TD(0)
 #define __THUMB2__           KC_ENT, KC_TAB, KC_BSPC
 
 // Colemak layout
@@ -48,8 +50,8 @@ enum virtual_keycodes {
 // Chars layout
 // Split 1
 #define ____CHARCTS_L11____        KC_F7,    LSFT(KC_7),    LSFT(KC_4),   LSFT(KC_2),         KC_F8
-#define ____CHARCTS_L21____      XXXXXXX,    LSFT(KC_8),    LSFT(KC_5),   LSFT(KC_1),    LSFT(KC_3)
-#define ____CHARCTS_L31____      XXXXXXX,        KC_CUT,    LSFT(KC_6),       KC_APP,       KC_PSTE
+#define ____CHARCTS_L21____   QK_MACRO_1,    LSFT(KC_8),    LSFT(KC_5),   LSFT(KC_1),    LSFT(KC_3)
+#define ____CHARCTS_L31____   QK_MACRO_0,        KC_CUT,    LSFT(KC_6),       KC_APP,       KC_PSTE
 // Split 2
 #define ____CHARCTS_L12____       KC_EQL, LSFT(KC_BSLS),        KC_GRV, LSFT(KC_GRV), LSFT(KC_SCLN)
 #define ____CHARCTS_L22____      KC_LCTL,       KC_LBRC,    LSFT(KC_9),   LSFT(KC_0),       KC_RBRC
@@ -57,13 +59,24 @@ enum virtual_keycodes {
 
 // Mouse layout
 // Split 1
-#define ____MOUSESS_L11____ KC_BRID, KC_BRIU,  KC_VOLD, KC_VOLU,   KC_F9
-#define ____MOUSESS_L21____ XXXXXXX, KC_BTN4,  KC_BTN2, KC_BTN1, KC_BTN3
-#define ____MOUSESS_L31____ XXXXXXX,  KC_CUT,  KC_COPY,  KC_APP, KC_PSTE
+#define ____MOUSESS_L11____    KC_BRID, KC_BRIU,  KC_VOLD, KC_VOLU,   KC_F9
+#define ____MOUSESS_L21____ QK_MACRO_1, KC_BTN4,  KC_BTN2, KC_BTN1, KC_BTN3
+#define ____MOUSESS_L31____ QK_MACRO_0,  KC_CUT,  KC_COPY,  KC_APP, KC_PSTE
 // Split 2
-#define ____MOUSESS_L12____  KC_F10,  KC_F11,  KC_WH_D, KC_WH_U, KC_PSCR
+#define ____MOUSESS_L12____  KC_F10,  KC_F11,  KC_WH_D, KC_WH_U,  TO_GAM
 #define ____MOUSESS_L22____  KC_F12, KC_MS_L,  KC_MS_D, KC_MS_U, KC_MS_R
 #define ____MOUSESS_L32____  KC_INS, KC_WBAK,  KC_PGDN, KC_PGUP, KC_WFWD
+
+// One shot layout
+// Split 1
+#define ____OSL_L11____ QK_MACRO_2, XXXXXXX,    XXXXXXX,    XXXXXXX,    KC_MINS
+#define ____OSL_L21____ QK_MACRO_5, XXXXXXX, QK_MACRO_9, LALT(KC_X),     KC_ESC
+#define ____OSL_L31____    XXXXXXX, XXXXXXX, QK_MACRO_0,    XXXXXXX, QK_MACRO_1
+// Split 2
+#define ____OSL_L12____     QK_MACRO_7,    KC_RBRC,    QK_MACRO_6, KC_QUOT, LALT(KC_X)
+#define ____OSL_L22____  LSFT(KC_LBRC),    KC_LBRC, LSFT(KC_RBRC), XXXXXXX,    XXXXXXX
+#define ____OSL_L32____     QK_MACRO_8, QK_MACRO_3, LSFT(KC_SLSH), KC_SLSH, LSFT(KC_7)
+
 
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
 #define LAYOUT_split_3x5_3_wrapper(...)       LAYOUT_split_3x5_3(__VA_ARGS__)

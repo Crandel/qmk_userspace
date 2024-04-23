@@ -303,7 +303,7 @@
         "LALT(KC_X)",
         "KC_QUOTE",
         "M6",
-        "KC_RBRACKET",
+        "LSFT(KC_LBRACKET)",
         "M7",
         "KC_NO"
       ],
@@ -312,7 +312,7 @@
         "KC_NO",
         "LSFT(KC_RBRACKET)",
         "KC_LBRACKET",
-        "LSFT(KC_LBRACKET)",
+        "KC_RBRACKET",
         "KC_NO"
       ],
       [
@@ -517,12 +517,7 @@
         "KC_S",
         "KC_S"
       ]
-    ],
-    [],
-    [],
-    [],
-    [],
-    []
+    ]
   ],
   "vial_protocol": 6,
   "via_protocol": 9,
@@ -674,28 +669,28 @@
       "KC_M",
       "KC_NO",
       "KC_NO",
-      "KC_LBRACKET"
+      "KC_RBRACKET"
     ],
     [
       "KC_P",
       "KC_I",
       "KC_NO",
       "KC_NO",
-      "KC_RBRACKET"
+      "KC_LBRACKET"
     ],
     [
       "KC_F",
       "KC_P",
       "KC_M",
       "KC_NO",
-      "RSFT(KC_LBRACKET)"
+      "RSFT(KC_RBRACKET)"
     ],
     [
       "KC_F",
       "KC_P",
       "KC_I",
       "KC_NO",
-      "RSFT(KC_RBRACKET)"
+      "RSFT(KC_LBRACKET)"
     ],
     [
       "KC_P",
@@ -710,48 +705,6 @@
       "KC_N",
       "KC_NO",
       "M4"
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
     ],
     [
       "KC_NO",

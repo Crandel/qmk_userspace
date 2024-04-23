@@ -822,28 +822,28 @@
       "KC_M",
       "KC_NO",
       "KC_NO",
-      "KC_LBRACKET"
+      "KC_RBRACKET"
     ],
     [
       "KC_P",
       "KC_I",
       "KC_NO",
       "KC_NO",
-      "KC_RBRACKET"
+      "KC_LBRACKET"
     ],
     [
       "KC_F",
       "KC_P",
       "KC_M",
       "KC_NO",
-      "RSFT(KC_LBRACKET)"
+      "RSFT(KC_RBRACKET)"
     ],
     [
       "KC_F",
       "KC_P",
       "KC_I",
       "KC_NO",
-      "RSFT(KC_RBRACKET)"
+      "RSFT(KC_LBRACKET)"
     ],
     [
       "KC_P",

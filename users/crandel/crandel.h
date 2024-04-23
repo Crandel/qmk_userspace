@@ -50,8 +50,8 @@ enum virtual_keycodes {
 // Chars layout
 // Split 1
 #define ____CHARCTS_L11____        KC_F7,    LSFT(KC_7),    LSFT(KC_4),   LSFT(KC_2),         KC_F8
-#define ____CHARCTS_L21____   QK_MACRO_1,    LSFT(KC_8),    LSFT(KC_5),   LSFT(KC_1),    LSFT(KC_3)
-#define ____CHARCTS_L31____   QK_MACRO_0,        KC_CUT,    LSFT(KC_6),       KC_APP,       KC_PSTE
+#define ____CHARCTS_L21____   QK_MACRO_0,    LSFT(KC_8),    LSFT(KC_5),   LSFT(KC_1),    LSFT(KC_3)
+#define ____CHARCTS_L31____   QK_MACRO_1,        KC_CUT,    LSFT(KC_6),       KC_APP,       KC_PSTE
 // Split 2
 #define ____CHARCTS_L12____       KC_EQL, LSFT(KC_BSLS),        KC_GRV, LSFT(KC_GRV), LSFT(KC_SCLN)
 #define ____CHARCTS_L22____      KC_LCTL,       KC_LBRC,    LSFT(KC_9),   LSFT(KC_0),       KC_RBRC
@@ -60,8 +60,8 @@ enum virtual_keycodes {
 // Mouse layout
 // Split 1
 #define ____MOUSESS_L11____    KC_BRID, KC_BRIU,  KC_VOLD, KC_VOLU,   KC_F9
-#define ____MOUSESS_L21____ QK_MACRO_1, KC_BTN4,  KC_BTN2, KC_BTN1, KC_BTN3
-#define ____MOUSESS_L31____ QK_MACRO_0,  KC_CUT,  KC_COPY,  KC_APP, KC_PSTE
+#define ____MOUSESS_L21____ QK_MACRO_0, KC_BTN4,  KC_BTN2, KC_BTN1, KC_BTN3
+#define ____MOUSESS_L31____ QK_MACRO_1,  KC_CUT,  KC_COPY,  KC_APP, KC_PSTE
 // Split 2
 #define ____MOUSESS_L12____  KC_F10,  KC_F11,  KC_WH_D, KC_WH_U,  TO_GAM
 #define ____MOUSESS_L22____  KC_F12, KC_MS_L,  KC_MS_D, KC_MS_U, KC_MS_R

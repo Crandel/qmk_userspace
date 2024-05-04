@@ -272,7 +272,7 @@
         "M2",
         "KC_NO",
         "KC_NO",
-        "KC_NO",
+        "LSFT(KC_MINUS)",
         "KC_MINUS"
       ],
       [
@@ -311,7 +311,7 @@
         "LSFT(KC_LBRACKET)",
         "KC_LBRACKET",
         "LSFT(KC_RBRACKET)",
-        "KC_NO",
+        "LSFT(KC_QUOTE)",
         "KC_NO",
         "KC_NO"
       ],
@@ -663,7 +663,7 @@
   "tap_dance": [
     [
       "DF(0)",
-      "DF(2)",
+      "OSL(2)",
       "DF(1)",
       "DF(3)",
       260
@@ -790,15 +790,15 @@
       "RSFT(KC_EQUAL)"
     ],
     [
-      "KC_Q",
-      "KC_SCOLON",
+      "KC_P",
+      "KC_E",
       "KC_NO",
       "KC_NO",
       "RSFT(KC_QUOTE)"
     ],
     [
-      "KC_W",
-      "KC_SCOLON",
+      "KC_P",
+      "KC_O",
       "KC_NO",
       "KC_NO",
       "KC_QUOTE"

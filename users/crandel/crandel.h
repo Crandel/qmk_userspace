@@ -17,7 +17,7 @@ enum virtual_keycodes {
 
 #define TO_CLM DF(COLMAK_L)
 #define TO_NMB DF(NUM_L)
-#define TO_CHR DF(CHARS_L)
+#define TO_CHR OSL(CHARS_L)
 #define TO_MOS DF(MOUSE_L)
 #define TO_OSL OSL(OSL_L)
 #define TO_GAM DF(GAME_L)
@@ -69,13 +69,13 @@ enum virtual_keycodes {
 
 // One shot layout
 // Split 1
-#define ____OSL_L11____ QK_MACRO_2, XXXXXXX,    XXXXXXX,    XXXXXXX,    KC_MINS
-#define ____OSL_L21____ QK_MACRO_5, XXXXXXX, QK_MACRO_9, LALT(KC_X),     KC_ESC
-#define ____OSL_L31____    XXXXXXX, XXXXXXX, QK_MACRO_0,    XXXXXXX, QK_MACRO_1
+#define ____OSL_L11____ QK_MACRO_2, XXXXXXX,    XXXXXXX, LSFT(KC_MINS),    KC_MINS
+#define ____OSL_L21____ QK_MACRO_5, XXXXXXX, QK_MACRO_9,    LALT(KC_X),     KC_ESC
+#define ____OSL_L31____    XXXXXXX, XXXXXXX, QK_MACRO_0,       XXXXXXX, QK_MACRO_1
 // Split 2
-#define ____OSL_L12____     QK_MACRO_7, LSFT(KC_LBRC),    QK_MACRO_6, KC_QUOT, LALT(KC_X)
-#define ____OSL_L22____        KC_RBRC,       KC_LBRC, LSFT(KC_RBRC), XXXXXXX,    XXXXXXX
-#define ____OSL_L32____     QK_MACRO_8,    QK_MACRO_3, LSFT(KC_SLSH), KC_SLSH, LSFT(KC_7)
+#define ____OSL_L12____     QK_MACRO_7,    KC_RBRC,    QK_MACRO_6,       KC_QUOT, LALT(KC_X)
+#define ____OSL_L22____  LSFT(KC_LBRC),    KC_LBRC, LSFT(KC_RBRC), LSFT(KC_QUOT),    XXXXXXX
+#define ____OSL_L32____     QK_MACRO_8, QK_MACRO_3, LSFT(KC_SLSH),       KC_SLSH, LSFT(KC_7)
 
 
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)

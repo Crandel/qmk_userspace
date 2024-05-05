@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VIAL_COMBO_ENTRIES     24
 
 /* default layer count */
-#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
 #define DYNAMIC_KEYMAP_MACRO_COUNT 10
 
 //#define USE_MATRIX_I2C

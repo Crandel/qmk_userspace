@@ -54,7 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       * │ Z │ X │ C │ D │ V │       │ O │ N │ , │ . │ / │
       * └───┴───┴───┴───┴───┘       └───┴───┴───┴───┴───┘
       *           ┌───┐                   ┌───┐
-      *           │Ldr├───┐           ┌───┤Bsp│
+      *           │OSL├───┐           ┌───┤Bsp│
       *           └───┤Spc├───┐   ┌───┤Tab├───┘
       *               └───┤TD0│   │Ent├───┘
       *                   └───┘   └───┘

@@ -234,7 +234,7 @@
         "TD(0)"
       ],
       [
-        "DF(5)",
+        "KC_NO",
         "KC_WH_U",
         "KC_WH_D",
         "KC_F11",
@@ -271,7 +271,7 @@
         "M2",
         "KC_NO",
         "KC_NO",
-        "KC_NO",
+        "LSFT(KC_MINUS)",
         "KC_MINUS",
         "KC_NO"
       ],
@@ -303,16 +303,16 @@
         "LALT(KC_X)",
         "KC_QUOTE",
         "M6",
-        "LSFT(KC_LBRACKET)",
+        "KC_RBRACKET",
         "M7",
         "KC_NO"
       ],
       [
         "KC_NO",
-        "KC_NO",
+        "LSFT(KC_QUOTE)",
         "LSFT(KC_RBRACKET)",
         "KC_LBRACKET",
-        "KC_RBRACKET",
+        "LSFT(KC_LBRACKET)",
         "KC_NO"
       ],
       [
@@ -331,76 +331,9 @@
         "KC_TAB",
         "KC_ENTER"
       ]
-    ],
-    [
-      [
-        "KC_GESC",
-        "KC_G",
-        "KC_Q",
-        "KC_W",
-        "KC_E",
-        "KC_H"
-      ],
-      [
-        "KC_TAB",
-        "KC_LSHIFT",
-        "KC_A",
-        "KC_S",
-        "KC_D",
-        "KC_F"
-      ],
-      [
-        "KC_LALT",
-        "KC_LCTRL",
-        "KC_Z",
-        "KC_X",
-        "KC_C",
-        "KC_V"
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        "KC_ENTER",
-        "KC_SPACE",
-        "TD(0)"
-      ],
-      [
-        "KC_NO",
-        "KC_NO",
-        "KC_NO",
-        "KC_NO",
-        "KC_NO",
-        "KC_NO"
-      ],
-      [
-        "KC_NO",
-        "KC_5",
-        "KC_4",
-        "KC_3",
-        "KC_2",
-        "KC_1"
-      ],
-      [
-        "KC_NO",
-        "KC_0",
-        "KC_9",
-        "KC_8",
-        "KC_7",
-        "KC_6"
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        "KC_BSPACE",
-        "KC_TAB",
-        "KC_ENTER"
-      ]
     ]
   ],
   "encoder_layout": [
-    [],
     [],
     [],
     [],
@@ -481,14 +414,7 @@
     [
       [
         "tap",
-        "KC_PSCREEN"
-      ],
-      [
-        "delay",
-        2
-      ],
-      [
-        "tap",
+        "KC_PSCREEN",
         "LSFT(KC_QUOTE)",
         "KC_A"
       ]
@@ -496,14 +422,7 @@
     [
       [
         "tap",
-        "KC_PSCREEN"
-      ],
-      [
-        "delay",
-        2
-      ],
-      [
-        "tap",
+        "KC_PSCREEN",
         "LSFT(KC_QUOTE)",
         "KC_U"
       ]
@@ -511,14 +430,7 @@
     [
       [
         "tap",
-        "KC_PSCREEN"
-      ],
-      [
-        "delay",
-        2
-      ],
-      [
-        "tap",
+        "KC_PSCREEN",
         "LSFT(KC_QUOTE)",
         "KC_E"
       ]
@@ -526,14 +438,7 @@
     [
       [
         "tap",
-        "KC_PSCREEN"
-      ],
-      [
-        "delay",
-        2
-      ],
-      [
-        "tap",
+        "KC_PSCREEN",
         "LSFT(KC_QUOTE)",
         "KC_O"
       ]
@@ -552,7 +457,7 @@
   "tap_dance": [
     [
       "DF(0)",
-      "DF(2)",
+      "OSL(2)",
       "DF(1)",
       "DF(3)",
       260
@@ -665,15 +570,15 @@
       "RSFT(KC_EQUAL)"
     ],
     [
-      "KC_Q",
-      "KC_SCOLON",
+      "KC_P",
+      "KC_E",
       "KC_NO",
       "KC_NO",
       "RSFT(KC_QUOTE)"
     ],
     [
-      "KC_W",
-      "KC_SCOLON",
+      "KC_P",
+      "KC_O",
       "KC_NO",
       "KC_NO",
       "KC_QUOTE"

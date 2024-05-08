@@ -414,32 +414,104 @@
     [
       [
         "tap",
-        "KC_PSCREEN",
-        "LSFT(KC_QUOTE)",
+        "KC_PSCREEN"
+      ],
+      [
+        "delay",
+        1
+      ],
+      [
+        "down",
+        "KC_LSHIFT"
+      ],
+      [
+        "tap",
+        "KC_QUOTE"
+      ],
+      [
+        "up",
+        "KC_LSHIFT"
+      ],
+      [
+        "tap",
         "KC_A"
       ]
     ],
     [
       [
         "tap",
-        "KC_PSCREEN",
-        "LSFT(KC_QUOTE)",
+        "KC_PSCREEN"
+      ],
+      [
+        "delay",
+        1
+      ],
+      [
+        "down",
+        "KC_LSHIFT"
+      ],
+      [
+        "tap",
+        "KC_QUOTE"
+      ],
+      [
+        "up",
+        "KC_LSHIFT"
+      ],
+      [
+        "tap",
         "KC_U"
       ]
     ],
     [
       [
         "tap",
-        "KC_PSCREEN",
-        "LSFT(KC_QUOTE)",
+        "KC_PSCREEN"
+      ],
+      [
+        "delay",
+        1
+      ],
+      [
+        "down",
+        "KC_LSHIFT"
+      ],
+      [
+        "tap",
+        "KC_QUOTE"
+      ],
+      [
+        "up",
+        "KC_LSHIFT"
+      ],
+      [
+        "tap",
         "KC_E"
       ]
     ],
     [
       [
         "tap",
-        "KC_PSCREEN",
-        "LSFT(KC_QUOTE)",
+        "KC_PSCREEN"
+      ],
+      [
+        "delay",
+        1
+      ],
+      [
+        "down",
+        "KC_LSHIFT"
+      ],
+      [
+        "tap",
+        "KC_QUOTE"
+      ],
+      [
+        "up",
+        "KC_LSHIFT"
+      ],
+      [
+        "tap",
         "KC_O"
       ]
     ],

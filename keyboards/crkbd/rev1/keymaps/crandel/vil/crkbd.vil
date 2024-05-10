@@ -308,7 +308,7 @@
         "KC_NO"
       ],
       [
-        "KC_NO",
+        "M4",
         "LSFT(KC_QUOTE)",
         "LSFT(KC_RBRACKET)",
         "KC_LBRACKET",
@@ -531,7 +531,7 @@
   "tap_dance": [
     [
       "DF(0)",
-      "OSL(2)",
+      "DF(2)",
       "DF(1)",
       "DF(3)",
       260
@@ -541,13 +541,6 @@
       "KC_LBRACKET",
       "LSFT(KC_SLASH)",
       "KC_RBRACKET",
-      260
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
       260
     ]
   ],

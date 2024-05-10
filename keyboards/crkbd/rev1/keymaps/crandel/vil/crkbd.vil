@@ -609,11 +609,11 @@
       "M2"
     ],
     [
-      "KC_B",
-      "KC_M",
       "KC_NO",
       "KC_NO",
-      "KC_DELETE"
+      "KC_NO",
+      "KC_NO",
+      "KC_NO"
     ],
     [
       "KC_G",

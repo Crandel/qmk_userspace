@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VIAL_KEYBOARD_UID      {0x3B, 0x6B, 0xA0, 0x29, 0x80, 0x56, 0xED, 0xD1}
 #define VIAL_UNLOCK_COMBO_ROWS {0, 2}
 #define VIAL_UNLOCK_COMBO_COLS {0, 2}
-#define VIAL_TAP_DANCE_ENTRIES 3
+#define VIAL_TAP_DANCE_ENTRIES 2
 #define VIAL_COMBO_ENTRIES     24
 
 /* default layer count */

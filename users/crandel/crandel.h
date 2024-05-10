@@ -17,9 +17,9 @@ enum virtual_keycodes {
 
 #define TO_CLM DF(COLMAK_L)
 #define TO_NMB DF(NUM_L)
-#define TO_CHR OSL(CHARS_L)
+#define TO_CHR DF(CHARS_L)
 #define TO_MOS DF(MOUSE_L)
-#define TO_OSL DF(OSL_L)
+#define TO_OSL OSL(OSL_L)
 #define TO_GAM DF(GAME_L)
 #define SLS_TD TD(1)
 
@@ -74,7 +74,7 @@ enum virtual_keycodes {
 #define ____OSL_L31____    XXXXXXX, XXXXXXX, QK_MACRO_0,       XXXXXXX, QK_MACRO_1
 // Split 2
 #define ____OSL_L12____     QK_MACRO_7,    KC_RBRC,    QK_MACRO_6,       KC_QUOT, LALT(KC_X)
-#define ____OSL_L22____  LSFT(KC_LBRC),    KC_LBRC, LSFT(KC_RBRC), LSFT(KC_QUOT),    XXXXXXX
+#define ____OSL_L22____  LSFT(KC_LBRC),    KC_LBRC, LSFT(KC_RBRC), LSFT(KC_QUOT), QK_MACRO_4
 #define ____OSL_L32____     QK_MACRO_8, QK_MACRO_3, LSFT(KC_SLSH),       KC_SLSH, LSFT(KC_7)
 
 

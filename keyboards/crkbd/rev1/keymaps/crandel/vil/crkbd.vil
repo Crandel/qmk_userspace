@@ -400,14 +400,16 @@
     [
       [
         "down",
-        "KC_RALT"
+        "KC_RALT",
+        "KC_LSHIFT"
       ],
       [
         "tap",
-        "RSFT(KC_QUOTE)"
+        "KC_QUOTE"
       ],
       [
         "up",
+        "KC_LSHIFT",
         "KC_RALT"
       ]
     ],

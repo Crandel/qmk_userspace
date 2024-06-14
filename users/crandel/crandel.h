@@ -13,6 +13,7 @@ enum layers {
 enum virtual_keycodes {
     V_US = QK_KB_0,
     V_UK,
+    AUTO_MS_TOG,
 };
 
 #define TO_CLM DF(COLMAK_L)
@@ -23,8 +24,17 @@ enum virtual_keycodes {
 #define TO_GAM DF(GAME_L)
 #define SLS_TD TD(1)
 
-#define __THUMB1__           TO_OSL, KC_SPC,   TD(0)
-#define __THUMB2__           KC_ENT, KC_TAB, KC_BSPC
+// Corne/Piantor
+#define __THUMB1__   TO_OSL, KC_SPC,   TD(0)
+#define __THUMB2__   KC_ENT, KC_TAB, KC_BSPC
+
+// Wylderbuilds
+#define __THUMB11__  TO_OSL, KC_SPC
+#define __THUMB12__  XXXXXXX, TD(0)
+#define __THUMB13__  XXXXXXX, XXXXXXX
+#define __THUMB21__  KC_ENT
+#define __THUMB22__  KC_TAB
+#define __THUMB23__  XXXXXXX, KC_BSPC
 
 // Colemak layout
 // Split 1
@@ -78,9 +88,10 @@ enum virtual_keycodes {
 #define ____OSL_L32____     QK_MACRO_8, QK_MACRO_3, LSFT(KC_SLSH),       KC_SLSH, LSFT(KC_7)
 
 
-#define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
-#define LAYOUT_split_3x5_3_wrapper(...)       LAYOUT_split_3x5_3(__VA_ARGS__)
-#define LAYOUT_split_3x6_3_wrapper(...)       LAYOUT_split_3x6_3(__VA_ARGS__)
+#define LAYOUT_wrapper(...)              LAYOUT(__VA_ARGS__)
+#define LAYOUT_3x5_wrapper(...)          LAYOUT_3x5(__VA_ARGS__)
+#define LAYOUT_split_3x5_3_wrapper(...)  LAYOUT_split_3x5_3(__VA_ARGS__)
+#define LAYOUT_split_3x6_3_wrapper(...)  LAYOUT_split_3x6_3(__VA_ARGS__)
 
 void set_lang(bool lng);
 void set_indicators_state(uint8_t hue, uint8_t sat, uint8_t val, const char *data);

@@ -48,6 +48,13 @@ bool vd_process_record_user(uint16_t keycode, keyrecord_t *record) {
       set_lang(false);
     }
     return false;
+  case AUTO_MS_TOG:
+    if (record->event.pressed) {
+      #ifdef POINTING_DEVICE_AUTO_MOUSE_ENABLE
+      set_auto_mouse_enable(!get_auto_mouse_enable());
+      #endif
+    }
+    return false; // Skip all further processing of this key
   case KC_BSPC:
     {
       static uint16_t registered_key = KC_NO;

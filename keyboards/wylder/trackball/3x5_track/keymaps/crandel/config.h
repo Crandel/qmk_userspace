@@ -20,6 +20,10 @@ SPDX-License-Identifier: GPL-2.0-or-later
 
 /* Select hand configuration */
 #define USB_VBUS_PIN GP26
+#define SPLIT_USB_TIMEOUT 2000
+#define SPLIT_USB_TIMEOUT_POLL 10
+#define SPLIT_WATCHDOG_ENABLE
+#define SPLIT_WATCHDOG_TIMEOUT 3000
 
 /* Redefine default settings */
 #define SERIAL_USART_PIN_SWAP

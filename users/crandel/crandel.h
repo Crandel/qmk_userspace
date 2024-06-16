@@ -23,15 +23,24 @@ enum virtual_keycodes {
 #define TO_OSL OSL(OSL_L)
 #define TO_GAM DF(GAME_L)
 #define SLS_TD TD(1)
+#ifdef POINTING_DEVICE_ENABLE
+#define PNT_TD TD(2)
+#endif
 
 // Corne/Piantor
 #define __THUMB1__   TO_OSL, KC_SPC,   TD(0)
 #define __THUMB2__   KC_ENT, KC_TAB, KC_BSPC
 
 // Wylderbuilds
-#define __THUMB11__  TO_OSL, KC_SPC
-#define __THUMB12__  XXXXXXX, TD(0)
+#define __THUMB11__  TO_OSL,      KC_SPC
+#define __THUMB12__  AUTO_MS_TOG, TD(0)
+#ifdef POINTING_DEVICE_ENABLE
+#define __THUMB13__  PNT_TD, XXXXXXX
+#endif
+#ifndef POINTING_DEVICE_ENABLE
 #define __THUMB13__  XXXXXXX, XXXXXXX
+#endif
+
 #define __THUMB21__  KC_ENT
 #define __THUMB22__  KC_TAB
 #define __THUMB23__  XXXXXXX, KC_BSPC

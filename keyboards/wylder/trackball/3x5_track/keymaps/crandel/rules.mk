@@ -16,6 +16,7 @@ QMK_SETTINGS           = yes
 RAW_ENABLE             = no
 RGBLIGHT_ENABLE        = no
 SPACE_CADET_ENABLE     = no
+SPLIT_USB_DETECT       = no
 SWAP_HANDS_ENABLE      = no # Enable one-hand typing
 TAP_DANCE_ENABLE       = yes
 VIAL_ENABLE            = yes # Enable VIAL

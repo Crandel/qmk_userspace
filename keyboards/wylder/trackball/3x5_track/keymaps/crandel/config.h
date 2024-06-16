@@ -19,14 +19,16 @@ SPDX-License-Identifier: GPL-2.0-or-later
 
 
 /* Select hand configuration */
-#define USB_VBUS_PIN GP26
+/* #define USB_VBUS_PIN GP26
 #define SPLIT_USB_TIMEOUT 2000
 #define SPLIT_USB_TIMEOUT_POLL 10
 #define SPLIT_WATCHDOG_ENABLE
 #define SPLIT_WATCHDOG_TIMEOUT 3000
+ */
+#define MASTER_LEFT
 
 /* Redefine default settings */
-#define SERIAL_USART_PIN_SWAP
+/* #define SERIAL_USART_PIN_SWAP */
 
 #undef MATRIX_COL_PINS
 #define MATRIX_COL_PINS { GP3,  GP4,  GP5,  GP6,  GP7 }
@@ -34,17 +36,15 @@ SPDX-License-Identifier: GPL-2.0-or-later
 #define MATRIX_ROW_PINS { GP11, GP12, GP13, GP14, GP15 }
 
 /* Trackball settings*/
-/* #undef PMW33XX_LIFTOFF_DISTANCE */
-/* #define PMW33XX_LIFTOFF_DISTANCE 0x04 */
-/* #undef POINTING_DEVICE_TASK_THROTTLE_MS */
-/* #define POINTING_DEVICE_TASK_THROTTLE_MS 1 */
+#undef PMW33XX_LIFTOFF_DISTANCE
+#define PMW33XX_LIFTOFF_DISTANCE 0x04
 
 /* #define TRACKBALL_DPI_OPTIONS { 1200, 1800, 2600, 3400 } */
 /* #define CHARYBDIS_MINIMUM_DEFAULT_DPI 1200 */
 /* #define CHARYBDIS_SNIPING_DPI_CONFIG_STEP 200 */
 
 /* Mouse settings */
-// #define MK_KINETIC_SPEED
+/* #define MK_KINETIC_SPEED */
 /* #undef MOUSEKEY_DELAY */
 /* #define MOUSEKEY_DELAY 5 */
 /* #undef MOUSEKEY_INTERVAL */
@@ -63,5 +63,5 @@ SPDX-License-Identifier: GPL-2.0-or-later
 /* #undef CHARYBDIS_MINIMUM_DEFAULT_DPI */
 /* #define CHARYBDIS_MINIMUM_DEFAULT_DPI 600 */
 
-/* #undef ROTATIONAL_TRANSFORM_ANGLE */
-/* #define ROTATIONAL_TRANSFORM_ANGLE -25 */
+#undef ROTATIONAL_TRANSFORM_ANGLE
+#define ROTATIONAL_TRANSFORM_ANGLE -25

@@ -15,10 +15,18 @@
 #define NO_MUSIC_MODE
 #define LAYER_STATE_8BIT
 
+#ifndef TAPPING_TERM
 #define TAPPING_TERM   260
+#endif
+#ifndef TAPPING_TOGGLE
 #define TAPPING_TOGGLE 3
+#endif
+#ifndef PERMISSIVE_HOLD
 #define PERMISSIVE_HOLD
+#endif
+#ifndef ONESHOT_TIMEOUT
 #define ONESHOT_TIMEOUT 5000
+#endif
 
 #ifdef RGBLIGHT_ENABLE
 #  undef RGBLIGHT_EFFECT_ALTERNATING

@@ -14,8 +14,8 @@ SPDX-License-Identifier: GPL-2.0-or-later
 #define VIAL_COMBO_ENTRIES     30
 
 /* default layer count */
-#define DYNAMIC_KEYMAP_LAYER_COUNT 8
-#define DYNAMIC_KEYMAP_MACRO_COUNT 15
+/* #define DYNAMIC_KEYMAP_LAYER_COUNT 8 */
+/* #define DYNAMIC_KEYMAP_MACRO_COUNT 15 */
 
 
 /* Select hand configuration */

@@ -37,6 +37,17 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   return vd_process_record_user(keycode, record);
 }
 
+void keyboard_post_init_user(void) {
+  // Call the post init code.
+  #ifdef TAP_DANCE_ENABLE
+  install_tap_dance_entries();
+  #endif
+  #ifdef RGBLIGHT_ENABLE
+  rgblight_sethsv(CR_HSV_GREEN);
+  #endif // RGBLIGHT_ENABLE
+}
+
+
 // AUTOMOUSE LAYERS
 #ifdef POINTING_DEVICE_AUTO_MOUSE_ENABLE
 void pointing_device_init_user(void) {
@@ -46,28 +57,28 @@ void pointing_device_init_user(void) {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      /*
-      * ┌───┬───┬───┬───┬───┐       ┌───┬───┬───┬───┬───┐
-      * │ Q │ W │ F │ P │ B │       │ E │ I │ U │ Y │ ; │
-      * ├───┼───┼───┼───┼───┤       ├───┼───┼───┼───┼───┤
-      * │ A │ R │ S │ T │ G │       │ M │ H │ J │ K │ L │
-      * ├───┼───┼───┼───┼───┤       ├───┼───┼───┼───┼───┤
-      * │ Z │ X │ C │ D │ V │       │ O │ N │ , │ . │ / │
-      * └───┴───┴───┴───┴───┘       └───┴───┴───┴───┴───┘
-      *           ┌───┐                   ┌───┐
-      *           │OSL├───┐           ┌───┤Bsp│
-      *           └───┤Spc├───┐   ┌───┤Tab├───┘
-      *               └───┤TD0│   │Ent├───┘
-      *                   └───┘   └───┘
+      * ┌───┬───┬───┬───┬───┬───┐       ┌───┬───┬───┬───┬───┬───┐
+      * │   │ Q │ W │ F │ P │ B │       │ E │ I │ U │ Y │ ; │   │
+      * ├───┼───┼───┼───┼───┼───┤       ├───┼───┼───┼───┼───┼───┤
+      * │   │ A │ R │ S │ T │ G │       │ M │ H │ J │ K │ L │   │
+      * ├───┼───┼───┼───┼───┼───┤       ├───┼───┼───┼───┼───┼───┤
+      * │   │ Z │ X │ C │ D │ V │       │ O │ N │ , │ . │ / │   │
+      * └───┴───┴───┴───┴───┴───┘       └───┴───┴───┴───┴───┴───┘
+      *               ┌───┐                   ┌───┐
+      *               │OSL├───┐           ┌───┤Bsp│
+      *               └───┤Spc├───┐   ┌───┤Tab├───┘
+      *                   └───┤TD0│   │Ent├───┘
+      *                       └───┘   └───┘
       */
 
   [COLMAK_L] = LAYOUT_wrapper(
-  //,-------------------------------.    ,---------------------------.
-     XXXXXXX, ____COLEMAK_L11____,       ____COLEMAK_L12____, XXXXXXX,
-  //|-------+--------+-------+------|    |------+-------+---+--------|
-     XXXXXXX, ____COLEMAK_L21____,       ____COLEMAK_L22____, XXXXXXX,
-  //|-------+--------+-------+------|    |------+-------+---+--------|
-     XXXXXXX, ____COLEMAK_L31____,       ____COLEMAK_L32____, XXXXXXX,
-  //|-------+--------+-------+------|    |------+-------+---+--------|
+  //,--------------------------------.    ,---------------------------.
+     AUTO_MS_TOG, ____COLEMAK_L11____,    ____COLEMAK_L12____, XXXXXXX,
+  //|-----------+-------------+------|    |------+-------+---+--------|
+          PNT_TD, ____COLEMAK_L21____,    ____COLEMAK_L22____, XXXXXXX,
+  //|-----------+-------------+------|    |------+-------+---+--------|
+         XXXXXXX, ____COLEMAK_L31____,    ____COLEMAK_L32____, XXXXXXX,
+  //|-----------+-------------+------|    |------+-------+---+--------|
                           __THUMB1__,     __THUMB2__
                         //`---------'    `----------'
   ),
@@ -97,15 +108,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [MOUSE_L] = LAYOUT_wrapper(
-  //,-------------------------------.    ,---------------------------.
-     XXXXXXX, ____MOUSESS_L11____,       ____MOUSESS_L12____, XXXXXXX,
-  //|-------+--------+-------+------|    |------+-------+---+--------|
-     XXXXXXX, ____MOUSESS_L21____,       ____MOUSESS_L22____, XXXXXXX,
-  //|-------+--------+-------+------|    |------+-------+---+--------|
-     XXXXXXX, ____MOUSESS_L31____,       ____MOUSESS_L32____, XXXXXXX,
-  //|-------+--------+-------+------|    |------+-------+---+--------|
-                          __THUMB1__,     __THUMB2__
-                        //`---------'    `----------'
+  //,------------------------------------------------.    ,---------------------------.
+     POINTER_DEFAULT_DPI_FORWARD, ____MOUSESS_L11____,    ____MOUSESS_L12____, POINTER_SNIPING_DPI_REVERSE,
+  //|------------------------+--------+-------+------|    |------+-------+---+--------|
+     SNIPING_MODE,                ____MOUSESS_L21____,    ____MOUSESS_L22____, DRAGSCROLL_MODE,
+  //|-------+-------------------------+-------+------|    |------+-------+---+--------|
+     SNIPING_MODE_TOGGLE,         ____MOUSESS_L31____,    ____MOUSESS_L32____, DRAGSCROLL_MODE_TOGGLE,
+  //|-------+--------+------------------------+------|    |------+-------+---+--------|
+                                           __THUMB1__,     __THUMB2__
+                                         //`---------'    `----------'
   ),
 
   [OSL_L] = LAYOUT_wrapper(

@@ -433,155 +433,9 @@
         -1,
         -1
       ]
-    ],
-    [
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        -1,
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        -1,
-        -1,
-        -1
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        -1,
-        -1,
-        -1
-      ]
-    ],
-    [
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        -1,
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        -1,
-        -1,
-        -1
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        -1,
-        -1,
-        -1
-      ]
     ]
   ],
   "encoder_layout": [
-    [],
-    [],
     [],
     [],
     [],
@@ -809,14 +663,14 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      260
+      250
     ],
     [
       "KC_NO",
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      260
+      250
     ]
   ],
   "combo": [
@@ -1039,7 +893,7 @@
     "4": 175,
     "5": 5,
     "6": 5000,
-    "7": 260,
+    "7": 250,
     "8": 0,
     "9": 10,
     "10": 20,

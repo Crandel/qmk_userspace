@@ -239,7 +239,7 @@
         "KC_WH_D",
         "KC_WH_U",
         "DF(5)",
-        "USER10"
+        "USER07"
       ],
       [
         "KC_F12",
@@ -628,14 +628,14 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      260
+      250
     ],
     [
       "KC_NO",
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      260
+      250
     ]
   ],
   "combo": [
@@ -799,20 +799,6 @@
       "KC_NO",
       "KC_NO",
       "KC_COMMA"
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
     ],
     [
       "KC_NO",

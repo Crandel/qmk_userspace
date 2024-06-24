@@ -1,6 +1,6 @@
 COMBO_ENABLE           = yes
-COMMAND_ENABLE         = yes
-# CONSOLE_ENABLE         = yes
+COMMAND_ENABLE         = no
+CONSOLE_ENABLE         = yes
 EXTRAKEY_ENABLE        = yes
 KEY_OVERRIDE_ENABLE    = no
 LEADER_ENABLE          = no

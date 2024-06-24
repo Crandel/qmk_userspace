@@ -1,8 +1,9 @@
 COMBO_ENABLE        = yes
+CONSOLE_ENABLE      = yes
 KEY_OVERRIDE_ENABLE = yes
 # LTO_ENABLE          = yes
 QMK_SETTINGS        = yes
-RGBLIGHT_ENABLE     = yes # Enable WS2812 RGB underlight.
+# RGBLIGHT_ENABLE     = yes # Enable WS2812 RGB underlight.
 RGB_MATRIX_ENABLE   = no
 TAP_DANCE_ENABLE    = yes
 VIALRGB_ENABLE      = no

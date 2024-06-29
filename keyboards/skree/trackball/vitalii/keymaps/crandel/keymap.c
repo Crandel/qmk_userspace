@@ -73,11 +73,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [COLMAK_L] = LAYOUT_wrapper(
   //,--------------------------------.    ,---------------------------.
-     AUTO_MS_TOG, ____COLEMAK_L11____,    ____COLEMAK_L12____, XXXXXXX,
+     AUTO_MS_TOG, ____COLEMAK_L11____,    ____COLEMAK_L12____, KC_BTN2,
   //|-----------+-------------+------|    |------+-------+---+--------|
-          PNT_TD, ____COLEMAK_L21____,    ____COLEMAK_L22____, XXXXXXX,
+          PNT_TD, ____COLEMAK_L21____,    ____COLEMAK_L22____, KC_BTN1,
   //|-----------+-------------+------|    |------+-------+---+--------|
-         XXXXXXX, ____COLEMAK_L31____,    ____COLEMAK_L32____, XXXXXXX,
+         SNP_TOG, ____COLEMAK_L31____,    ____COLEMAK_L32____, SNP_TOG,
   //|-----------+-------------+------|    |------+-------+---+--------|
                           __THUMB1__,     __THUMB2__
                         //`---------'    `----------'
@@ -85,11 +85,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [NUM_L] = LAYOUT_wrapper(
   //,-------------------------------.    ,---------------------------.
-     XXXXXXX, ____NUMBERS_L11____,       ____NUMBERS_L12____, XXXXXXX,
+     XXXXXXX, ____NUMBERS_L11____,       ____NUMBERS_L12____, KC_BTN2,
   //|-------+--------+-------+------|    |------+-------+---+--------|
-     XXXXXXX, ____NUMBERS_L21____,       ____NUMBERS_L22____, XXXXXXX,
+      PNT_TD, ____NUMBERS_L21____,       ____NUMBERS_L22____, KC_BTN1,
   //|-------+--------+-------+------|    |------+-------+---+--------|
-     XXXXXXX, ____NUMBERS_L31____,       ____NUMBERS_L32____, XXXXXXX,
+     SNP_TOG, ____NUMBERS_L31____,       ____NUMBERS_L32____, SNP_TOG,
   //|-------+--------+-------+------|    |------+-------+---+--------|
                           __THUMB1__,     __THUMB2__
                         //`---------'    `----------'

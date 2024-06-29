@@ -2,7 +2,6 @@
 
 #ifdef DEBUG_ENABLE
 #include "print.h"
-#endif
 // Disable options
 #ifndef NO_DEBUG
 #define NO_DEBUG
@@ -10,6 +9,7 @@
 #ifndef NO_PRINT
 #define NO_PRINT
 #endif // !NO_PRINT
+#endif
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
 #define NO_MUSIC_MODE

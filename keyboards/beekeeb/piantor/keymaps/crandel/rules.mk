@@ -1,7 +1,10 @@
 OLED_ENABLE            = no
+POINTING_DEVICE_ENABLE = no
 QMK_SETTINGS           = yes
 RAW_ENABLE             = no
 RGBLIGHT_ENABLE        = no
 SPACE_CADET_ENABLE     = no
 SWAP_HANDS_ENABLE      = no      # Enable one-hand typing
+VIA_ENABLE             = yes
+VIAL_ENABLE            = yes
 VIRTSER_ENABLE         = no

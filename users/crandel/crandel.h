@@ -84,7 +84,7 @@ enum virtual_keycodes {
 // Split 2
 #define ____MOUSESS_L12____  KC_F10,  KC_F11,  KC_WH_D, KC_WH_U,  TO_GAM
 #define ____MOUSESS_L22____  KC_F12, KC_MS_L,  KC_MS_D, KC_MS_U, KC_MS_R
-#define ____MOUSESS_L32____  KC_INS, KC_WBAK,  KC_PGDN, KC_PGUP, KC_WFWD
+#define ____MOUSESS_L32____  KC_INS, KC_BTN1,  KC_BTN2, KC_BTN3, XXXXXXX
 
 // One shot layout
 // Split 1

@@ -57,7 +57,7 @@
         "KC_COMMA",
         "KC_DOT",
         "TD(1)",
-        "USER12"
+        "KC_BTN3"
       ],
       [
         -1,
@@ -123,7 +123,7 @@
         "KC_HOME",
         "KC_END",
         "KC_BSLASH",
-        "USER12"
+        "KC_BTN3"
       ],
       [
         -1,
@@ -173,7 +173,7 @@
         "KC_GRAVE",
         "LSFT(KC_GRAVE)",
         "LSFT(KC_SCOLON)",
-        "KC_NO"
+        "KC_BTN2"
       ],
       [
         "KC_LCTRL",
@@ -181,7 +181,7 @@
         "LSFT(KC_9)",
         "LSFT(KC_0)",
         "KC_RBRACKET",
-        "KC_NO"
+        "KC_BTN1"
       ],
       [
         "LSFT(KC_EQUAL)",
@@ -189,7 +189,7 @@
         "LSFT(KC_COMMA)",
         "LSFT(KC_DOT)",
         "LSFT(KC_RBRACKET)",
-        "KC_NO"
+        "KC_BTN3"
       ],
       [
         -1,
@@ -251,10 +251,10 @@
       ],
       [
         "KC_INSERT",
-        "KC_WBAK",
-        "KC_PGDOWN",
-        "KC_PGUP",
-        "KC_WFWD",
+        "KC_BTN1",
+        "KC_BTN2",
+        "KC_BTN3",
+        "KC_NO",
         "USER14"
       ],
       [

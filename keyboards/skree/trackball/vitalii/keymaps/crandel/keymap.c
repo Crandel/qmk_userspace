@@ -89,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|-------+--------+-------+------|    |------+-------+---+--------|
       PNT_TD, ____NUMBERS_L21____,       ____NUMBERS_L22____, KC_BTN1,
   //|-------+--------+-------+------|    |------+-------+---+--------|
-     SNP_TOG, ____NUMBERS_L31____,       ____NUMBERS_L32____, SNP_TOG,
+     SNP_TOG, ____NUMBERS_L31____,       ____NUMBERS_L32____, KC_BTN3,
   //|-------+--------+-------+------|    |------+-------+---+--------|
                           __THUMB1__,     __THUMB2__
                         //`---------'    `----------'
@@ -97,11 +97,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [CHARS_L] = LAYOUT_wrapper(
   //,-------------------------------.    ,---------------------------.
-     XXXXXXX, ____CHARCTS_L11____,       ____CHARCTS_L12____, XXXXXXX,
+     XXXXXXX, ____CHARCTS_L11____,       ____CHARCTS_L12____, KC_BTN2,
   //|-------+--------+-------+------|    |------+-------+---+--------|
-     XXXXXXX, ____CHARCTS_L21____,       ____CHARCTS_L22____, XXXXXXX,
+     XXXXXXX, ____CHARCTS_L21____,       ____CHARCTS_L22____, KC_BTN1,
   //|-------+--------+-------+------|    |------+-------+---+--------|
-     XXXXXXX, ____CHARCTS_L31____,       ____CHARCTS_L32____, XXXXXXX,
+     XXXXXXX, ____CHARCTS_L31____,       ____CHARCTS_L32____, KC_BTN3,
   //|-------+--------+-------+------|    |------+-------+---+--------|
                           __THUMB1__,     __THUMB2__
                         //`---------'    `----------'

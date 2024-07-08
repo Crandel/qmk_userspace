@@ -34,7 +34,7 @@
       [
         -1,
         "TD(2)",
-        "KC_NO",
+        "KC_BTN1",
         "USER02",
         "TD(0)"
       ],
@@ -67,7 +67,7 @@
         -1
       ],
       [
-        "KC_NO",
+        "KC_BTN2",
         "KC_BSPACE",
         -1,
         -1,
@@ -106,7 +106,7 @@
       [
         -1,
         "TD(2)",
-        "KC_NO",
+        "KC_BTN1",
         "USER02",
         "TD(0)"
       ],
@@ -139,7 +139,7 @@
         -1
       ],
       [
-        "KC_NO",
+        "KC_BTN2",
         "KC_BSPACE",
         -1,
         -1,
@@ -178,7 +178,7 @@
       [
         -1,
         "TD(2)",
-        "KC_NO",
+        "KC_BTN1",
         "USER02",
         "TD(0)"
       ],
@@ -211,7 +211,7 @@
         -1
       ],
       [
-        "KC_NO",
+        "KC_BTN2",
         "KC_BSPACE",
         -1,
         -1,
@@ -250,19 +250,19 @@
       [
         -1,
         "TD(2)",
-        "KC_NO",
+        "KC_BTN1",
         "USER02",
         "TD(0)"
       ],
       [
-        "KC_F10",
-        "KC_F11",
+        "KC_BTN1",
+        "KC_BTN2",
         "KC_WH_D",
         "KC_WH_U",
         "DF(5)"
       ],
       [
-        "KC_F12",
+        "KC_BTN3",
         "KC_MS_L",
         "KC_MS_D",
         "KC_MS_U",
@@ -270,10 +270,10 @@
       ],
       [
         "KC_INSERT",
-        "KC_WBAK",
-        "KC_PGDOWN",
-        "KC_PGUP",
-        "KC_WFWD"
+        "KC_F10",
+        "KC_F11",
+        "KC_F12",
+        "KC_NO"
       ],
       [
         "KC_ENTER",
@@ -283,7 +283,7 @@
         -1
       ],
       [
-        "KC_NO",
+        "KC_BTN2",
         "KC_BSPACE",
         -1,
         -1,
@@ -322,7 +322,7 @@
       [
         -1,
         "TD(2)",
-        "KC_NO",
+        "KC_BTN1",
         "USER02",
         "TD(0)"
       ],
@@ -355,7 +355,7 @@
         -1
       ],
       [
-        "KC_NO",
+        "KC_BTN2",
         "KC_BSPACE",
         -1,
         -1,

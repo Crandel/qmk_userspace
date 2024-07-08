@@ -22,6 +22,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #  include "crd_leader.c"
 #endif
 
+#ifdef POINTING_DEVICE_ENABLE
+#  include "crd_trackball.c"
+#endif
+
 #ifdef TAP_DANCE_ENABLE
 #  include "crd_tapdance.c"
 #endif

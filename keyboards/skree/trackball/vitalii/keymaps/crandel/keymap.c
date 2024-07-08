@@ -14,6 +14,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+#include "crd_trackball.h"
 #include QMK_KEYBOARD_H
 #include "vial.h"
 
@@ -112,15 +113,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [MOUSE_L] = LAYOUT_wrapper(
-  //,----------------------------.    ,----------------------------.
-     DPI_MOD, ____MOUSESS_L11____,    ____MOUSESS_L12____, DPI_RMOD,
-  //|---------------------+------|    |------+-------+---+---------|
-     SNIPING, ____MOUSESS_L21____,    ____MOUSESS_L22____,  DRGSCRL,
-  //|-------------+-------+------|    |------+-------+---+---------|
-     SNP_TOG, ____MOUSESS_L31____,    ____MOUSESS_L32____,  DRG_TOG,
-  //|---------------------+------|    |------+-------+---+---------|
-                       __THUMB1__,     __THUMB2__
-                     //`---------'    `----------'
+  //,-----------------------------.    ,----------------------------.
+      DPI_MOD, ____MOUSESS_L11____,    ____MOUSESS_L12____, DPI_RMOD,
+  //|----------------------+------|    |------+-------+---+---------|
+     DPI_RMOD, ____MOUSESS_L21____,    ____MOUSESS_L22____,  SNP_TOG,
+  //|--------------+-------+------|    |------+-------+---+---------|
+      DPI_RST, ____MOUSESS_L31____,    ____MOUSESS_L32____,  DRG_TOG,
+  //|----------------------+------|    |------+-------+---+---------|
+                        __THUMB1__,     __THUMB2__
+                      //`---------'    `----------'
   ),
 
   [OSL_L] = LAYOUT_wrapper(

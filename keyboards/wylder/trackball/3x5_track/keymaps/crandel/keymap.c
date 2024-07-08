@@ -1,5 +1,5 @@
 /*
-Copyright 2023 Vitalii Drevenchuk <@Crandel>
+Copyright 2024 Vitalii Drevenchuk <@Crandel>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -14,14 +14,16 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "3x5_track.h"
-#include "crandel.h"
 #include QMK_KEYBOARD_H
+#include "vial.h"
 
 #include "crandel.c"
-
 #ifdef LEADER_ENABLE
 #  include "crd_leader.c"
+#endif
+
+#ifdef POINTING_DEVICE_ENABLE
+#  include "crd_trackball.c"
 #endif
 
 #ifdef TAP_DANCE_ENABLE
@@ -38,6 +40,14 @@ void keyboard_post_init_user(void) {
   install_tap_dance_entries();
   #endif
 }
+
+
+// AUTOMOUSE LAYERS
+#ifdef POINTING_DEVICE_AUTO_MOUSE_ENABLE
+void pointing_device_init_user(void) {
+    set_auto_mouse_enable(true);
+}
+#endif
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      /*

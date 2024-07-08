@@ -35,7 +35,7 @@ enum virtual_keycodes {
 #define __THUMB11__  TO_OSL,      KC_SPC
 #define __THUMB12__  AUTO_MS_TOG, TD(0)
 #ifdef POINTING_DEVICE_ENABLE
-#define __THUMB13__  PNT_TD, XXXXXXX
+#define __THUMB13__  PNT_TD, KC_BTN1
 #endif
 #ifndef POINTING_DEVICE_ENABLE
 #define __THUMB13__  XXXXXXX, XXXXXXX
@@ -43,7 +43,7 @@ enum virtual_keycodes {
 
 #define __THUMB21__  KC_ENT
 #define __THUMB22__  KC_TAB
-#define __THUMB23__  XXXXXXX, KC_BSPC
+#define __THUMB23__  KC_BTN2, KC_BSPC
 
 // Colemak layout
 // Split 1
@@ -82,9 +82,9 @@ enum virtual_keycodes {
 #define ____MOUSESS_L21____ QK_MACRO_0, KC_BTN4,  KC_BTN2, KC_BTN1, KC_BTN3
 #define ____MOUSESS_L31____ QK_MACRO_1,  KC_CUT,  KC_COPY,  KC_APP, KC_PSTE
 // Split 2
-#define ____MOUSESS_L12____  KC_F10,  KC_F11,  KC_WH_D, KC_WH_U,  TO_GAM
-#define ____MOUSESS_L22____  KC_F12, KC_MS_L,  KC_MS_D, KC_MS_U, KC_MS_R
-#define ____MOUSESS_L32____  KC_INS, KC_BTN1,  KC_BTN2, KC_BTN3, XXXXXXX
+#define ____MOUSESS_L12____  KC_BTN1, KC_BTN2,  KC_WH_D, KC_WH_U,  TO_GAM
+#define ____MOUSESS_L22____  KC_BTN3, KC_MS_L,  KC_MS_D, KC_MS_U, KC_MS_R
+#define ____MOUSESS_L32____  KC_INS,   KC_F10,   KC_F11,  KC_F12, XXXXXXX
 
 // One shot layout
 // Split 1

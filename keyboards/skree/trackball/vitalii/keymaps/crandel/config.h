@@ -1,4 +1,7 @@
-/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+Copyright 2024 Vitalii Drevenchuk <@Crandel>
+SPDX-License-Identifier: GPL-2.0-or-later
+*/
 
 #pragma once
 

@@ -234,15 +234,15 @@
         -1
       ],
       [
-        "KC_F10",
-        "KC_F11",
+        "KC_BTN1",
+        "KC_BTN2",
         "KC_WH_D",
         "KC_WH_U",
         "DF(5)",
         "USER07"
       ],
       [
-        "KC_F12",
+        "KC_BTN3",
         "KC_MS_L",
         "KC_MS_D",
         "KC_MS_U",
@@ -251,9 +251,9 @@
       ],
       [
         "KC_INSERT",
-        "KC_BTN1",
-        "KC_BTN2",
-        "KC_BTN3",
+        "KC_F10",
+        "KC_F11",
+        "KC_F12",
         "KC_NO",
         "USER14"
       ],

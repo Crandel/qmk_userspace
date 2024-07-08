@@ -210,7 +210,7 @@
         "KC_F9"
       ],
       [
-        "USER11",
+        "USER07",
         "M0",
         "KC_BTN4",
         "KC_BTN2",
@@ -218,7 +218,7 @@
         "KC_BTN3"
       ],
       [
-        "USER12",
+        "USER08",
         "M1",
         "KC_CUT",
         "KC_COPY",
@@ -247,7 +247,7 @@
         "KC_MS_D",
         "KC_MS_U",
         "KC_MS_R",
-        "USER13"
+        "USER12"
       ],
       [
         "KC_INSERT",

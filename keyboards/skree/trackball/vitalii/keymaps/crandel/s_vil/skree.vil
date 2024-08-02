@@ -4,7 +4,7 @@
   "layout": [
     [
       [
-        "USER02",
+        "USER14",
         "KC_Q",
         "KC_W",
         "KC_F",
@@ -70,7 +70,7 @@
     ],
     [
       [
-        "KC_NO",
+        "USER14",
         "KC_F5",
         "KC_7",
         "KC_4",
@@ -136,7 +136,7 @@
     ],
     [
       [
-        "KC_NO",
+        "USER14",
         "KC_F7",
         "LSFT(KC_7)",
         "LSFT(KC_4)",
@@ -144,7 +144,7 @@
         "KC_F8"
       ],
       [
-        "KC_NO",
+        "TD(2)",
         "M0",
         "LSFT(KC_8)",
         "LSFT(KC_5)",
@@ -152,7 +152,7 @@
         "LSFT(KC_3)"
       ],
       [
-        "KC_NO",
+        "USER12",
         "M1",
         "KC_CUT",
         "LSFT(KC_6)",
@@ -202,7 +202,7 @@
     ],
     [
       [
-        "USER06",
+        "USER14",
         "KC_BRID",
         "KC_BRIU",
         "KC_VOLD",
@@ -210,7 +210,7 @@
         "KC_F9"
       ],
       [
-        "USER07",
+        "TD(2)",
         "M0",
         "KC_BTN4",
         "KC_BTN2",
@@ -218,7 +218,7 @@
         "KC_BTN3"
       ],
       [
-        "USER08",
+        "USER12",
         "M1",
         "KC_CUT",
         "KC_COPY",
@@ -239,7 +239,7 @@
         "KC_WH_D",
         "KC_WH_U",
         "DF(5)",
-        "USER07"
+        "KC_BTN2"
       ],
       [
         "KC_BTN3",
@@ -247,7 +247,7 @@
         "KC_MS_D",
         "KC_MS_U",
         "KC_MS_R",
-        "USER12"
+        "KC_BTN1"
       ],
       [
         "KC_INSERT",
@@ -255,7 +255,7 @@
         "KC_F11",
         "KC_F12",
         "KC_NO",
-        "USER14"
+        "KC_BTN3"
       ],
       [
         -1,
@@ -618,9 +618,9 @@
     ],
     [
       "USER08",
-      "USER12",
-      "USER14",
+      "USER07",
       "USER06",
+      "USER08",
       260
     ],
     [
@@ -801,11 +801,11 @@
       "KC_COMMA"
     ],
     [
+      "KC_C",
+      "KC_COMMA",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "LCTL(KC_U)"
     ],
     [
       "KC_NO",

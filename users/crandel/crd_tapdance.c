@@ -34,9 +34,9 @@ void install_tap_dance_entries(void) {
     dynamic_keymap_set_tap_dance(1, &td1);
 #ifdef POINTING_DEVICE_ENABLE
     vial_tap_dance_entry_t td2 = { DPI_RST, // POINTER_DEFAULT_DPI_RESET
-                                   SNP_TOG, // SNIPING_MODE_TOGGLE
-                                   DRG_TOG, // DRAGSCROLL_MODE_TOGGLE
+                                   DPI_RMOD, // POINTER_DEFAULT_DPI_REVERSE
                                    DPI_MOD, // POINTER_DEFAULT_DPI_FORWARD
+                                   DPI_RST, // POINTER_DEFAULT_DPI_RESET
                                    TAP_TAPPING_TERM };
     dynamic_keymap_set_tap_dance(2, &td2);
 #endif

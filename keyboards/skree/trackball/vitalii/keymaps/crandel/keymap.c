@@ -14,7 +14,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+#include "crandel.h"
 #include "crd_trackball.h"
+#include "keycodes.h"
 #include QMK_KEYBOARD_H
 #include "vial.h"
 
@@ -78,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [COLMAK_L] = LAYOUT_wrapper(
   //,--------------------------------.    ,---------------------------.
-     AUTO_MS_TOG, ____COLEMAK_L11____,    ____COLEMAK_L12____, KC_BTN2,
+         DRG_TOG, ____COLEMAK_L11____,    ____COLEMAK_L12____, KC_BTN2,
   //|-----------+-------------+------|    |------+-------+---+--------|
           PNT_TD, ____COLEMAK_L21____,    ____COLEMAK_L22____, KC_BTN1,
   //|-----------+-------------+------|    |------+-------+---+--------|
@@ -90,7 +92,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [NUM_L] = LAYOUT_wrapper(
   //,-------------------------------.    ,---------------------------.
-     XXXXXXX, ____NUMBERS_L11____,       ____NUMBERS_L12____, KC_BTN2,
+     DRG_TOG, ____NUMBERS_L11____,       ____NUMBERS_L12____, KC_BTN2,
   //|-------+--------+-------+------|    |------+-------+---+--------|
       PNT_TD, ____NUMBERS_L21____,       ____NUMBERS_L22____, KC_BTN1,
   //|-------+--------+-------+------|    |------+-------+---+--------|
@@ -102,24 +104,24 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [CHARS_L] = LAYOUT_wrapper(
   //,-------------------------------.    ,---------------------------.
-     XXXXXXX, ____CHARCTS_L11____,       ____CHARCTS_L12____, KC_BTN2,
+     DRG_TOG, ____CHARCTS_L11____,       ____CHARCTS_L12____, KC_BTN2,
   //|-------+--------+-------+------|    |------+-------+---+--------|
-     XXXXXXX, ____CHARCTS_L21____,       ____CHARCTS_L22____, KC_BTN1,
+      PNT_TD, ____CHARCTS_L21____,       ____CHARCTS_L22____, KC_BTN1,
   //|-------+--------+-------+------|    |------+-------+---+--------|
-     XXXXXXX, ____CHARCTS_L31____,       ____CHARCTS_L32____, KC_BTN3,
+     SNP_TOG, ____CHARCTS_L31____,       ____CHARCTS_L32____, KC_BTN3,
   //|-------+--------+-------+------|    |------+-------+---+--------|
                           __THUMB1__,     __THUMB2__
                         //`---------'    `----------'
   ),
 
   [MOUSE_L] = LAYOUT_wrapper(
-  //,-----------------------------.    ,----------------------------.
-      DPI_MOD, ____MOUSESS_L11____,    ____MOUSESS_L12____, DPI_RMOD,
-  //|----------------------+------|    |------+-------+---+---------|
-     DPI_RMOD, ____MOUSESS_L21____,    ____MOUSESS_L22____,  SNP_TOG,
-  //|--------------+-------+------|    |------+-------+---+---------|
-      DPI_RST, ____MOUSESS_L31____,    ____MOUSESS_L32____,  DRG_TOG,
-  //|----------------------+------|    |------+-------+---+---------|
+  //,-----------------------------.    ,---------------------------.
+      DRG_TOG, ____MOUSESS_L11____,    ____MOUSESS_L12____, KC_BTN2,
+  //|----------------------+------|    |------+-------+---+--------|
+       PNT_TD, ____MOUSESS_L21____,    ____MOUSESS_L22____, KC_BTN1,
+  //|--------------+-------+------|    |------+-------+---+--------|
+      SNP_TOG, ____MOUSESS_L31____,    ____MOUSESS_L32____, KC_BTN3,
+  //|----------------------+------|    |------+-------+---+--------|
                         __THUMB1__,     __THUMB2__
                       //`---------'    `----------'
   ),

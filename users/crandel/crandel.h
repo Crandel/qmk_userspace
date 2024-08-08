@@ -62,7 +62,12 @@ enum virtual_keycodes {
 #define ____NUMBERS_L21____ LGUI_T(KC_F4), LALT_T(KC_8), LCTL_T(KC_5), LSFT_T(KC_1),    KC_3
 #define ____NUMBERS_L31____         KC_F3,         KC_9,         KC_6,         KC_0,   KC_F2
 // Split 2
+#ifdef POINTING_DEVICE_ENABLE
+#define ____NUMBERS_L12____       KC_BTN1,         KC_BTN2,         KC_PGDN,       KC_PGUP,           KC_DOT
+#endif
+#ifndef POINTING_DEVICE_ENABLE
 #define ____NUMBERS_L12____  RSFT(KC_EQL),          KC_EQL,         KC_PGDN,       KC_PGUP,           KC_DOT
+#endif
 #define ____NUMBERS_L22____         KC_F1, LSFT_T(KC_LEFT), LCTL_T(KC_DOWN), RALT_T(KC_UP), LGUI_T(KC_RIGHT)
 #define ____NUMBERS_L32____       KC_QUOT,   RSFT(KC_QUOT),         KC_HOME,        KC_END,          KC_BSLS
 
@@ -84,7 +89,7 @@ enum virtual_keycodes {
 // Split 2
 #define ____MOUSESS_L12____  KC_BTN1, KC_BTN2,  KC_WH_D, KC_WH_U,  TO_GAM
 #define ____MOUSESS_L22____  KC_BTN3, KC_MS_L,  KC_MS_D, KC_MS_U, KC_MS_R
-#define ____MOUSESS_L32____  KC_INS,   KC_F10,   KC_F11,  KC_F12, XXXXXXX
+#define ____MOUSESS_L32____  KC_LCTL,  KC_F10,   KC_F11,  KC_F12, KC_LSFT
 
 // One shot layout
 // Split 1

@@ -154,10 +154,10 @@
       [
         "USER12",
         "M1",
-        "KC_CUT",
+        "KC_LSHIFT",
         "LSFT(KC_6)",
-        "KC_APPLICATION",
-        "KC_PSTE"
+        "KC_LCTRL",
+        "KC_LALT"
       ],
       [
         -1,
@@ -220,10 +220,10 @@
       [
         "USER12",
         "M1",
-        "KC_CUT",
+        "KC_LSHIFT",
         "KC_COPY",
-        "KC_APPLICATION",
-        "KC_PSTE"
+        "KC_LCTRL",
+        "KC_LALT"
       ],
       [
         -1,
@@ -250,11 +250,11 @@
         "KC_BTN1"
       ],
       [
-        "KC_LCTRL",
+        "USER14",
         "KC_F10",
         "KC_F11",
         "KC_F12",
-        "KC_LSHIFT",
+        "USER12",
         "KC_BTN3"
       ],
       [
@@ -288,7 +288,7 @@
         "KC_NO",
         "KC_NO",
         "M0",
-        "KC_NO",
+        "LCTL(KC_U)",
         "M1"
       ],
       [
@@ -794,14 +794,14 @@
       "M4"
     ],
     [
-      "KC_P",
+      "KC_2",
       "KC_HOME",
       "KC_NO",
       "KC_NO",
       "KC_COMMA"
     ],
     [
-      "KC_C",
+      "KC_D",
       "KC_COMMA",
       "KC_NO",
       "KC_NO",

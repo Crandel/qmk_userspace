@@ -7,4 +7,5 @@ SPACE_CADET_ENABLE     = no
 SWAP_HANDS_ENABLE      = no      # Enable one-hand typing
 VIA_ENABLE             = yes
 VIAL_ENABLE            = yes
+VIAL_INSECURE          = yes
 VIRTSER_ENABLE         = no

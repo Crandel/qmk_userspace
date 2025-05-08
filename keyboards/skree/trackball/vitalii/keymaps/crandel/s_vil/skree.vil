@@ -12,7 +12,7 @@
         "KC_B"
       ],
       [
-        "TD(2)",
+        "USER12",
         "LGUI_T(KC_A)",
         "LALT_T(KC_R)",
         "LCTL_T(KC_S)",
@@ -20,7 +20,7 @@
         "KC_G"
       ],
       [
-        "USER12",
+        "TD(2)",
         "KC_Z",
         "KC_X",
         "KC_C",
@@ -78,7 +78,7 @@
         "KC_MINUS"
       ],
       [
-        "TD(2)",
+        "USER12",
         "LGUI_T(KC_F4)",
         "LALT_T(KC_8)",
         "LCTL_T(KC_5)",
@@ -86,7 +86,7 @@
         "KC_3"
       ],
       [
-        "USER12",
+        "TD(2)",
         "KC_F3",
         "KC_9",
         "KC_6",
@@ -144,7 +144,7 @@
         "KC_F8"
       ],
       [
-        "TD(2)",
+        "USER12",
         "M0",
         "LSFT(KC_8)",
         "LSFT(KC_5)",
@@ -152,7 +152,7 @@
         "LSFT(KC_3)"
       ],
       [
-        "USER12",
+        "TD(2)",
         "M1",
         "KC_LSHIFT",
         "LSFT(KC_6)",
@@ -210,7 +210,7 @@
         "KC_F9"
       ],
       [
-        "TD(2)",
+        "USER12",
         "M0",
         "KC_BTN4",
         "KC_BTN2",
@@ -218,7 +218,7 @@
         "KC_BTN3"
       ],
       [
-        "USER12",
+        "TD(2)",
         "M1",
         "KC_LSHIFT",
         "KC_COPY",
@@ -339,7 +339,7 @@
         "KC_Q",
         "KC_W",
         "KC_E",
-        "KC_H"
+        "KC_B"
       ],
       [
         "KC_TAB",
@@ -347,7 +347,7 @@
         "KC_A",
         "KC_S",
         "KC_D",
-        "KC_F"
+        "KC_G"
       ],
       [
         "KC_LALT",

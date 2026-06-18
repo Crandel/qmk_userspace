@@ -4,7 +4,7 @@
   "layout": [
     [
       [
-        "USER14",
+        "KC_BTN2",
         "KC_Q",
         "KC_W",
         "KC_F",
@@ -12,7 +12,7 @@
         "KC_B"
       ],
       [
-        "USER12",
+        "KC_BTN1",
         "LGUI_T(KC_A)",
         "LALT_T(KC_R)",
         "LCTL_T(KC_S)",
@@ -20,7 +20,7 @@
         "KC_G"
       ],
       [
-        "TD(2)",
+        "KC_BTN3",
         "KC_Z",
         "KC_X",
         "KC_C",
@@ -41,7 +41,7 @@
         "KC_U",
         "KC_Y",
         "KC_SCOLON",
-        "KC_BTN2"
+        "USER14"
       ],
       [
         "KC_M",
@@ -49,7 +49,7 @@
         "LCTL_T(KC_J)",
         "RALT_T(KC_K)",
         "LGUI_T(KC_L)",
-        "KC_BTN1"
+        "USER12"
       ],
       [
         "KC_O",
@@ -57,7 +57,7 @@
         "KC_COMMA",
         "KC_DOT",
         "TD(1)",
-        "KC_BTN3"
+        "TD(2)"
       ],
       [
         -1,
@@ -70,7 +70,7 @@
     ],
     [
       [
-        "USER14",
+        "KC_BTN2",
         "KC_F5",
         "KC_7",
         "KC_4",
@@ -78,7 +78,7 @@
         "KC_MINUS"
       ],
       [
-        "USER12",
+        "KC_BTN1",
         "LGUI_T(KC_F4)",
         "LALT_T(KC_8)",
         "LCTL_T(KC_5)",
@@ -86,7 +86,7 @@
         "KC_3"
       ],
       [
-        "TD(2)",
+        "KC_BTN3",
         "KC_F3",
         "KC_9",
         "KC_6",
@@ -107,7 +107,7 @@
         "KC_PGDOWN",
         "KC_PGUP",
         "KC_DOT",
-        "KC_BTN2"
+        "USER14"
       ],
       [
         "KC_F1",
@@ -115,7 +115,7 @@
         "LCTL_T(KC_DOWN)",
         "RALT_T(KC_UP)",
         "LGUI_T(KC_RIGHT)",
-        "KC_BTN1"
+        "USER12"
       ],
       [
         "KC_QUOTE",
@@ -123,7 +123,7 @@
         "KC_HOME",
         "KC_END",
         "KC_BSLASH",
-        "KC_BTN3"
+        "TD(2)"
       ],
       [
         -1,
@@ -136,7 +136,7 @@
     ],
     [
       [
-        "USER14",
+        "KC_BTN2",
         "KC_F7",
         "LSFT(KC_7)",
         "LSFT(KC_4)",
@@ -144,7 +144,7 @@
         "KC_F8"
       ],
       [
-        "USER12",
+        "KC_BTN1",
         "M0",
         "LSFT(KC_8)",
         "LSFT(KC_5)",
@@ -152,7 +152,7 @@
         "LSFT(KC_3)"
       ],
       [
-        "TD(2)",
+        "KC_BTN3",
         "M1",
         "KC_LSHIFT",
         "LSFT(KC_6)",
@@ -173,7 +173,7 @@
         "KC_GRAVE",
         "LSFT(KC_GRAVE)",
         "LSFT(KC_SCOLON)",
-        "KC_BTN2"
+        "USER14"
       ],
       [
         "KC_LCTRL",
@@ -181,7 +181,7 @@
         "LSFT(KC_9)",
         "LSFT(KC_0)",
         "KC_RBRACKET",
-        "KC_BTN1"
+        "USER12"
       ],
       [
         "LSFT(KC_EQUAL)",
@@ -189,7 +189,7 @@
         "LSFT(KC_COMMA)",
         "LSFT(KC_DOT)",
         "LSFT(KC_RBRACKET)",
-        "KC_BTN3"
+        "TD(2)"
       ],
       [
         -1,
@@ -286,7 +286,7 @@
       [
         "KC_NO",
         "KC_NO",
-        "KC_NO",
+        "KC_GRAVE",
         "M0",
         "LCTL(KC_U)",
         "M1"
@@ -851,6 +851,7 @@
     ]
   ],
   "key_override": [],
+  "alt_repeat_key": [],
   "settings": {
     "1": 0,
     "2": 50,

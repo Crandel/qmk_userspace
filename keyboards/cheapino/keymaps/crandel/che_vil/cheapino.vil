@@ -196,7 +196,7 @@
         -1,
         "KC_3",
         "LSFT_T(KC_1)",
-        "LCTL(KC_5)",
+        "LCTL_T(KC_5)",
         "LALT_T(KC_8)",
         "LGUI_T(KC_F4)",
         "KC_SPACE"

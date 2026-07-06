@@ -981,16 +981,10 @@
       "KC_NO",
       "KC_NO",
       "KC_NO"
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
     ]
   ],
   "key_override": [],
+  "alt_repeat_key": [],
   "settings": {
     "1": 0,
     "2": 50,

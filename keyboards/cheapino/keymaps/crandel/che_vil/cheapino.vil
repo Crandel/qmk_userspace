@@ -265,7 +265,7 @@
         "LSFT(KC_COMMA)",
         "LSFT(KC_DOT)",
         "LSFT(KC_RBRACKET)",
-        "KC_BSPACE",
+        "KC_DELETE",
         -1,
         -1,
         -1,
@@ -379,7 +379,7 @@
         "KC_F11",
         "KC_F12",
         "KC_LSHIFT",
-        "KC_BSPACE",
+        "KC_DELETE",
         -1,
         -1,
         -1,
@@ -2333,13 +2333,13 @@
   ],
   "key_override": [
     {
-      "trigger": "KC_NO",
-      "replacement": "KC_NO",
+      "trigger": "KC_BSPACE",
+      "replacement": "KC_DELETE",
       "layers": 65535,
-      "trigger_mods": 0,
-      "negative_mod_mask": 0,
-      "suppressed_mods": 0,
-      "options": 7
+      "trigger_mods": 2,
+      "negative_mod_mask": 2,
+      "suppressed_mods": 32,
+      "options": 13
     },
     {
       "trigger": "KC_NO",
@@ -2643,6 +2643,6 @@
     "18": 0,
     "19": 80,
     "20": 3,
-    "21": 0
+    "21": 128
   }
 }

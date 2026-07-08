@@ -2111,7 +2111,7 @@
       "KC_E",
       "KC_NO",
       "KC_NO",
-      "KC_CAPSLOCK"
+      "LSFT(KC_CAPSLOCK)"
     ],
     [
       "KC_MINUS",
